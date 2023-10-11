@@ -1,4 +1,4 @@
-
+import time
 import torch
 import argparse
 import contexttimer
@@ -36,14 +36,14 @@ def parse_arguments():
     parser.add_argument('--seed', '-s', type=int, default=None, help='set a random seed, which can makes the result reproducible')
     parser.add_argument('--benchmark', '-b', action='store_true', default=False, help='show benchmark results.')
     parser.add_argument('--profiling', '-p', action='store_true', default=False, help='collect torch profiler results.')
-    parser.add_argument('--max_tokens', '-M', type=int, default=20, help='max token number generated.')
+    parser.add_argument('--max_tokens', '-M', type=int, default=200, help='max token number generated.')
     parser.add_argument('--gamma', '-g', type=int, default=4, help='guess time.')
     args = parser.parse_args()
     return args
 
 
 def color_print(text):
-    print(Fore.RED + text + Style.RESET_ALL)
+    print(text)
     
 def benchmark(fn, print_prefix, use_profiler=True, *args, **kwargs):
     TEST_TIME = 10
@@ -95,16 +95,24 @@ def generate(input_text, approx_model_name, target_model_name, num_tokens=20, ga
     top_p = 0.9
 
     torch.manual_seed(123)
+    start = time.time()
     output = autoregressive_sampling(input_ids, large_model, num_tokens, top_k = top_k, top_p=top_p)
+    end = time.time()
+    time_spent = end - start
+    print(f"large (target) model autoregressive_sampling took {time_spent} seconds.")
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
-    color_print(f"large (target) model autoregressive_sampling: {generated_text}")
+    print(f"large (target) model autoregressive_sampling: {generated_text}")
     
     if use_benchmark:
         benchmark(autoregressive_sampling, "AS_large", use_profiling,
                   input_ids, large_model, num_tokens, top_k = top_k, top_p=top_p)
 
     torch.manual_seed(123)
+    start = time.time()
     output = autoregressive_sampling(input_ids, small_model, num_tokens, top_k = top_k, top_p=top_p)
+    end = time.time()
+    time_spent = end - start
+    print(f"small (target) model autoregressive_sampling took {time_spent} seconds.")
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     color_print(f"small (approx) model autoregressive_sampling: {generated_text}")
     
@@ -113,12 +121,20 @@ def generate(input_text, approx_model_name, target_model_name, num_tokens=20, ga
                   input_ids, small_model, num_tokens, top_k = top_k, top_p=top_p)
     
     torch.manual_seed(123)
+    start=time.time()
     output = speculative_sampling_v2(input_ids, small_model, large_model, num_tokens, top_k = top_k, top_p=top_p, random_seed = random_seed)
+    end = time.time()
+    time_spent = end - start
+    print(f"deepmind's speculative_sampling took {time_spent} seconds.")
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     color_print(f"deepmind's speculative_sampling: {generated_text}")   
 
     torch.manual_seed(123)
+    start=time.time()
     output = speculative_sampling(input_ids, small_model, large_model, num_tokens, gamma = gamma, top_k = top_k, top_p=top_p, random_seed = random_seed, verbose = verbose)
+    end = time.time()
+    time_spent = end - start
+    print(f"google's speculative_sampling took {time_spent} seconds.")
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
     color_print(f"google's speculative_sampling: {generated_text}")
     
