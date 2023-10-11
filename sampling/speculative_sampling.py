@@ -9,7 +9,7 @@ from globals import Decoder
 @torch.no_grad()
 def speculative_sampling(prefix : torch.Tensor, approx_model : torch.nn.Module, target_model : torch.nn.Module, 
                          max_len : int , gamma : int = 4,
-                         temperature : float = 1, top_k : int = 0, top_p : float = 0, verbose : bool = False, random_seed : int = None) -> torch.Tensor:
+                         temperature : float = 0.0001, top_k : int = 0, top_p : float = 0, verbose : bool = False, random_seed : int = None) -> torch.Tensor:
     """
     Google version Speculative Sampling.
     https://arxiv.org/pdf/2211.17192.pdf
@@ -67,7 +67,7 @@ def speculative_sampling(prefix : torch.Tensor, approx_model : torch.nn.Module, 
                 break
             
             if verbose:
-                print(f"approx guess accepted {j[0]}: \033[31m{Decoder().decode(torch.tensor([j]))}\033[0m")
+                print(f"approx guess accepted {j[0]}: {Decoder().decode(torch.tensor([j]))}")
 
             accepted_count += 1
         
@@ -83,7 +83,7 @@ def speculative_sampling(prefix : torch.Tensor, approx_model : torch.nn.Module, 
             # reject someone, sample from the pos n
             t = sample(max_fn(target_model_cache._prob_history[:, n, :] - approx_model_cache._prob_history[:, n, :]))
             if verbose:
-                print(f"target resamples at position {n}: \033[34m{Decoder().decode(t)}\033[0m")
+                print(f"target resamples at position {n}: {Decoder().decode(t)}")
             resample_count += 1
             target_model_cache.rollback(n+1)
         else:
@@ -91,7 +91,7 @@ def speculative_sampling(prefix : torch.Tensor, approx_model : torch.nn.Module, 
             assert n == target_model_cache._prob_history.shape[1] - 1
             t = sample(target_model_cache._prob_history[:, -1, :])
             if verbose:
-                print(f"target samples {n}: \033[35m{Decoder().decode(t)}\033[0m")
+                print(f"target samples {n}: {Decoder().decode(t)}")
             target_sample_count += 1
             target_model_cache.rollback(n+2)
         
@@ -106,7 +106,7 @@ def speculative_sampling(prefix : torch.Tensor, approx_model : torch.nn.Module, 
 @torch.no_grad()
 def speculative_sampling_v2(prefix : torch.Tensor, approx_model : torch.nn.Module, target_model : torch.nn.Module, 
                          max_len : int , gamma : int = 4,
-                         temperature : float = 1, top_k : int = 0, top_p : float = 0, random_seed : int = None) -> torch.Tensor:
+                         temperature : float = 0.0001, top_k : int = 0, top_p : float = 0, random_seed : int = None) -> torch.Tensor:
     """
     DeepMind version Speculative Sampling.
     Accelerating Large Language Model Decoding with Speculative Sampling
@@ -128,6 +128,10 @@ def speculative_sampling_v2(prefix : torch.Tensor, approx_model : torch.nn.Modul
     """
     seq_len = prefix.shape[1]
     T = seq_len + max_len
+
+    resample_count = 0
+    target_sample_count = 0
+    accepted_count = 0
     
     assert prefix.shape[0] == 1, "input batch size must be 1"
 
@@ -167,10 +171,13 @@ def speculative_sampling_v2(prefix : torch.Tensor, approx_model : torch.nn.Modul
                 if r < torch.min(torch.tensor([1], device=q.device), p[:, prefix_len + i - 1, j] / q[:, prefix_len + i - 1, j]):
                     # accept, and update n
                     n += 1
+                    accepted_count += 1
+                    
                 else:
                     # reject
                     t = sample(max_fn(p[:, n, :] - q[:, n, :]))
                     is_all_accept = False
+                    resample_count += 1
                     break
          
             prefix = x[:, :n + 1]
@@ -180,6 +187,7 @@ def speculative_sampling_v2(prefix : torch.Tensor, approx_model : torch.nn.Modul
             
             prefix = torch.cat((prefix, t), dim=1)
             pbar.update(n - pbar.n)
+    print(f"accepted_count {accepted_count}, resample_count {resample_count}")
 
     return prefix
 
