@@ -1,0 +1,395 @@
+begin loading models: 
+ codellama/CodeLlama-13b-Python-hf 
+ codellama/CodeLlama-34b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 566.1299495697021 seconds.
+large (target) model autoregressive_sampling: #!/usr/bin/env python
+import json
+import time
+
+from oic.oauth2.message import AuthorizationResponse
+from oic.oauth2.message import AuthorizationRequest
+from oic.oauth2.message import AccessTokenResponse
+from oic.oauth2.message import AccessTokenRequest
+from oic.oauth2.message import ROPCAccessTokenRequest
+from oic.oauth2.message import CCAccessTokenRequest
+from oic.oauth2.message import RefreshAccessTokenRequest
+from oic.oauth2.
+small (target) model autoregressive_sampling took 6.231602907180786 seconds.
+small (approx) model autoregressive_sampling: #!/usr/bin/env python
+import json
+import time
+import math
+import argparse
+import numpy as np
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.autograd import Variable
+
+from pprint import pprint
+from utils.train_utils import *
+
+from dataloaders.dataloader import *
+from utils.loss import *
+
+def main(config):
+
+    if config.mode == 'train':
+        data = get_
+deepmind's speculative_sampling took 162.83821821212769 seconds.
+deepmind's speculative_sampling: Tags: c#, asp.net, asp.net-mvc, asp.net-mvc-4, razor
+
+Question: How to pass a model to a partial view in ASP.NET MVC?
+
+I have a partial view that I want to use in multiple places. The partial view is a form that is used to create a new item. The form is strongly typed to a model.
+
+I want to use this partial view in multiple places. I want to pass the model to the partial view.
+
+I have tried the following:
+
+\begin{code
+target resamples at position 0: Tags
+approx guess accepted 29901: :
+approx guess accepted 274: c
+approx guess accepted 6552: #,
+approx guess accepted 7051: asp
+target samples 5: .
+approx guess accepted 1212: net
+approx guess accepted 29892: ,
+approx guess accepted 7051: asp
+approx guess accepted 29889: .
+target samples 10: net
+approx guess accepted 29899: -
+approx guess accepted 12943: mvc
+approx guess accepted 29892: ,
+approx guess accepted 7051: asp
+target samples 15: .
+approx guess accepted 1212: net
+approx guess accepted 29899: -
+approx guess accepted 12943: mvc
+approx guess accepted 29899: -
+target samples 20: 4
+approx guess accepted 29892: ,
+approx guess accepted 8006: raz
+approx guess accepted 272: or
+approx guess accepted 13: 
+
+target samples 25: 
+
+approx guess accepted 16492: Question
+approx guess accepted 29901: :
+approx guess accepted 1128: How
+approx guess accepted 304: to
+target samples 30: pass
+approx guess accepted 263: a
+target resamples at position 32: model
+approx guess accepted 304: to
+approx guess accepted 263: a
+approx guess accepted 7687: partial
+approx guess accepted 1776: view
+target samples 37: in
+approx guess accepted 12738: ASP
+approx guess accepted 29889: .
+approx guess accepted 6006: NET
+approx guess accepted 13348: MVC
+target samples 42: ?
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 29902: I
+approx guess accepted 505: have
+target samples 47: a
+target resamples at position 48: partial
+approx guess accepted 1776: view
+approx guess accepted 393: that
+approx guess accepted 306: I
+approx guess accepted 864: want
+target samples 53: to
+target resamples at position 54: use
+approx guess accepted 297: in
+approx guess accepted 2999: multiple
+target resamples at position 57: places
+target resamples at position 58: .
+target resamples at position 59: The
+approx guess accepted 7687: partial
+approx guess accepted 1776: view
+approx guess accepted 338: is
+target resamples at position 63: a
+approx guess accepted 883: form
+approx guess accepted 393: that
+target resamples at position 66: is
+approx guess accepted 1304: used
+approx guess accepted 304: to
+target resamples at position 69: create
+approx guess accepted 263: a
+approx guess accepted 716: new
+target resamples at position 72: item
+approx guess accepted 29889: .
+target resamples at position 74: The
+target resamples at position 75: form
+approx guess accepted 338: is
+target resamples at position 77: strongly
+approx guess accepted 13033: typed
+approx guess accepted 304: to
+approx guess accepted 263: a
+approx guess accepted 1904: model
+target samples 82: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 29902: I
+approx guess accepted 864: want
+target samples 87: to
+target resamples at position 88: use
+target resamples at position 89: this
+approx guess accepted 7687: partial
+approx guess accepted 1776: view
+approx guess accepted 297: in
+approx guess accepted 2999: multiple
+target samples 94: places
+target resamples at position 95: .
+approx guess accepted 306: I
+approx guess accepted 864: want
+approx guess accepted 304: to
+approx guess accepted 1209: pass
+target samples 100: the
+approx guess accepted 1904: model
+approx guess accepted 304: to
+approx guess accepted 278: the
+approx guess accepted 7687: partial
+target samples 105: view
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 29902: I
+target samples 110: have
+approx guess accepted 1898: tried
+approx guess accepted 278: the
+approx guess accepted 1494: following
+approx guess accepted 29901: :
+target samples 115: 
+
+approx guess accepted 13: 
+
+approx guess accepted 29905: \
+approx guess accepted 463: begin
+approx guess accepted 29912: {
+target samples 120: code
+generated tokens numbers 121, accepted_count 86, target_sample_count 18, resample_count 17
+google's speculative_sampling took 144.95538425445557 seconds.
+google's speculative_sampling: Tags: c#, asp.net, asp.net-mvc, asp.net-mvc-4, razor
+
+Question: How to pass a model to a partial view in ASP.NET MVC?
+
+I have a partial view that I want to use in multiple places. The partial view is a form that is used to create a new item. The form is strongly typed to a model.
+
+I want to use this partial view in multiple places. I want to pass the model to the partial view.
+
+I have tried the following:
+
+\begin{code
+Done with 
+begin loading models: 
+ codellama/CodeLlama-13b-Python-hf 
+ codellama/CodeLlama-34b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 574.2525045871735 seconds.
+large (target) model autoregressive_sampling: #!/usr/bin/env python
+import json
+import time
+
+from oic.oauth2.message import AuthorizationResponse
+from oic.oauth2.message import AuthorizationRequest
+from oic.oauth2.message import AccessTokenResponse
+from oic.oauth2.message import AccessTokenRequest
+from oic.oauth2.message import ROPCAccessTokenRequest
+from oic.oauth2.message import CCAccessTokenRequest
+from oic.oauth2.message import RefreshAccessTokenRequest
+from oic.oauth2.
+small (target) model autoregressive_sampling took 6.212129592895508 seconds.
+small (approx) model autoregressive_sampling: #!/usr/bin/env python
+import json
+import time
+import math
+import argparse
+import numpy as np
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.autograd import Variable
+
+from pprint import pprint
+from utils.train_utils import *
+
+from dataloaders.dataloader import *
+from utils.loss import *
+
+def main(config):
+
+    if config.mode == 'train':
+        data = get_
+deepmind's speculative_sampling took 159.41882252693176 seconds.
+deepmind's speculative_sampling: Tags: c#, asp.net, asp.net-mvc, asp.net-mvc-4, razor
+
+Question: How to pass a model to a partial view in ASP.NET MVC?
+
+I have a partial view that I want to use in multiple places. The partial view is a form that is used to create a new item. The form is strongly typed to a model.
+
+I want to use this partial view in multiple places. I want to pass the model to the partial view.
+
+I have tried the following:
+
+\begin{code
+target resamples at position 0: Tags
+approx guess accepted 29901: :
+approx guess accepted 274: c
+approx guess accepted 6552: #,
+approx guess accepted 7051: asp
+target samples 5: .
+approx guess accepted 1212: net
+approx guess accepted 29892: ,
+approx guess accepted 7051: asp
+approx guess accepted 29889: .
+target samples 10: net
+approx guess accepted 29899: -
+approx guess accepted 12943: mvc
+approx guess accepted 29892: ,
+approx guess accepted 7051: asp
+target samples 15: .
+approx guess accepted 1212: net
+approx guess accepted 29899: -
+approx guess accepted 12943: mvc
+approx guess accepted 29899: -
+target samples 20: 4
+approx guess accepted 29892: ,
+approx guess accepted 8006: raz
+approx guess accepted 272: or
+approx guess accepted 13: 
+
+target samples 25: 
+
+approx guess accepted 16492: Question
+approx guess accepted 29901: :
+approx guess accepted 1128: How
+approx guess accepted 304: to
+target samples 30: pass
+approx guess accepted 263: a
+target resamples at position 32: model
+approx guess accepted 304: to
+approx guess accepted 263: a
+approx guess accepted 7687: partial
+approx guess accepted 1776: view
+target samples 37: in
+approx guess accepted 12738: ASP
+approx guess accepted 29889: .
+approx guess accepted 6006: NET
+approx guess accepted 13348: MVC
+target samples 42: ?
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 29902: I
+approx guess accepted 505: have
+target samples 47: a
+target resamples at position 48: partial
+approx guess accepted 1776: view
+approx guess accepted 393: that
+approx guess accepted 306: I
+approx guess accepted 864: want
+target samples 53: to
+target resamples at position 54: use
+approx guess accepted 297: in
+approx guess accepted 2999: multiple
+target resamples at position 57: places
+target resamples at position 58: .
+target resamples at position 59: The
+approx guess accepted 7687: partial
+approx guess accepted 1776: view
+approx guess accepted 338: is
+target resamples at position 63: a
+approx guess accepted 883: form
+approx guess accepted 393: that
+target resamples at position 66: is
+approx guess accepted 1304: used
+approx guess accepted 304: to
+target resamples at position 69: create
+approx guess accepted 263: a
+approx guess accepted 716: new
+target resamples at position 72: item
+approx guess accepted 29889: .
+target resamples at position 74: The
+target resamples at position 75: form
+approx guess accepted 338: is
+target resamples at position 77: strongly
+approx guess accepted 13033: typed
+approx guess accepted 304: to
+approx guess accepted 263: a
+approx guess accepted 1904: model
+target samples 82: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 29902: I
+approx guess accepted 864: want
+target samples 87: to
+target resamples at position 88: use
+target resamples at position 89: this
+approx guess accepted 7687: partial
+approx guess accepted 1776: view
+approx guess accepted 297: in
+approx guess accepted 2999: multiple
+target samples 94: places
+target resamples at position 95: .
+approx guess accepted 306: I
+approx guess accepted 864: want
+approx guess accepted 304: to
+approx guess accepted 1209: pass
+target samples 100: the
+approx guess accepted 1904: model
+approx guess accepted 304: to
+approx guess accepted 278: the
+approx guess accepted 7687: partial
+target samples 105: view
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 29902: I
+target samples 110: have
+approx guess accepted 1898: tried
+approx guess accepted 278: the
+approx guess accepted 1494: following
+approx guess accepted 29901: :
+target samples 115: 
+
+approx guess accepted 13: 
+
+approx guess accepted 29905: \
+approx guess accepted 463: begin
+approx guess accepted 29912: {
+target samples 120: code
+generated tokens numbers 121, accepted_count 86, target_sample_count 18, resample_count 17
+google's speculative_sampling took 149.23652529716492 seconds.
+google's speculative_sampling: Tags: c#, asp.net, asp.net-mvc, asp.net-mvc-4, razor
+
+Question: How to pass a model to a partial view in ASP.NET MVC?
+
+I have a partial view that I want to use in multiple places. The partial view is a form that is used to create a new item. The form is strongly typed to a model.
+
+I want to use this partial view in multiple places. I want to pass the model to the partial view.
+
+I have tried the following:
+
+\begin{code
+Done with 
+Timing and difficulty information saved to output/10-prompts_output-13b-34b.json and output/10-prompts_output-13b-34b.txt

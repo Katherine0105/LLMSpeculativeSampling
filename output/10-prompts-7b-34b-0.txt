@@ -1,0 +1,683 @@
+Current Prompt: Create a function to find the factorial of a number in executable Python code.
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-34b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 726.9477877616882 seconds.
+large (target) model autoregressive_sampling: Create a function to find the factorial of a number in executable Python code. For this, first take the number from the user using input function and then find the factorial of it. You can refer to the below Python program for better understanding.
+# Python program to find the factorial of a number using for loop
+
+n = int(input('Enter the number whose factorial you want to find: '))
+factorial = 1
+for i in range(2, n+1):
+	factorial = factorial * i
+
+print("The factorial of",n,"is",factorial)
+ from collections import Counter
+import re
+import math
+import numpy as np
+import pandas as pd
+from scipy.stats import norm
+from sklearn.preprocessing import MinMaxScaler
+from typing import Dict, List, Union
+from dataclasses import dataclass
+
+
+class EasyScaler():
+
+    @dataclass
+    class Cols:
+        numerics:
+small (target) model autoregressive_sampling took 5.161770820617676 seconds.
+small (approx) model autoregressive_sampling: Create a function to find the factorial of a number in executable Python code.
+  
+  def factorial(n):
+    factorial = 1
+    for x in range(1,n+1):
+        factorial = factorial * x
+    return factorial
+  
+  print(factorial(10))
+
+ import logging
+
+logger = logging.getLogger(__name__)
+
+
+def init_logging(level):
+    handler = logging.StreamHandler()
+    formatter = logging.Formatter(
+        '[%(levelname)s]\t[%(asctime)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+    logger.setLevel(level)
+ from .base import *
+
+from . import models
+from . import controllers
+from . import views
+accepted_count 153, resample_count 16
+deepmind's speculative_sampling took 169.3331322669983 seconds.
+deepmind's speculative_sampling: Create a function to find the factorial of a number in executable Python code.
+
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+
+print(factorial(5))
+ import os
+import sys
+import time
+import json
+import asyncio
+import requests
+import discord
+import datetime
+import configparser
+from discord.ext import commands
+from discord.ext.commands import Bot
+
+
+# 봇 설정 추출
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+TOKEN = config['bot']['token']
+VERSION = config['bot']['version']
+OWNER = config['bot']['owner']
+PREFIX = config['bot']['prefix']
+
+
+# 봇 설정
+bot = Bot(command_prefix=
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target resamples at position 18: 
+
+approx guess accepted 1753: def
+approx guess accepted 7329: factor
+approx guess accepted 616: ial
+approx guess accepted 29898: (
+target samples 23: n
+approx guess accepted 1125: ):
+approx guess accepted 13: 
+
+approx guess accepted 1678:   
+approx guess accepted 565: if
+target samples 28: n
+approx guess accepted 1275: ==
+approx guess accepted 29871: 
+approx guess accepted 29900: 0
+approx guess accepted 29901: :
+target samples 33: 
+
+approx guess accepted 4706:       
+approx guess accepted 736: return
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+target samples 38: 
+
+approx guess accepted 1678:   
+approx guess accepted 1683: else
+approx guess accepted 29901: :
+approx guess accepted 13: 
+
+target samples 43:       
+approx guess accepted 736: return
+approx guess accepted 302: n
+approx guess accepted 334: *
+approx guess accepted 7329: factor
+target samples 48: ial
+approx guess accepted 29898: (
+approx guess accepted 29876: n
+approx guess accepted 448: -
+approx guess accepted 29871: 
+target samples 53: 1
+approx guess accepted 29897: )
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target samples 58: print
+approx guess accepted 29898: (
+approx guess accepted 19790: factor
+approx guess accepted 616: ial
+approx guess accepted 29898: (
+target samples 63: 5
+approx guess accepted 876: ))
+approx guess accepted 13: 
+
+approx guess accepted 2: 
+approx guess accepted 1: 
+target samples 68: import
+approx guess accepted 2897: os
+approx guess accepted 13: 
+
+approx guess accepted 5215: import
+approx guess accepted 10876: sys
+target samples 73: 
+
+approx guess accepted 5215: import
+approx guess accepted 931: time
+approx guess accepted 13: 
+
+approx guess accepted 5215: import
+target samples 78: json
+approx guess accepted 13: 
+
+approx guess accepted 5215: import
+target resamples at position 81: as
+approx guess accepted 948: yn
+approx guess accepted 3934: cio
+approx guess accepted 13: 
+
+approx guess accepted 5215: import
+target samples 86: requests
+approx guess accepted 13: 
+
+approx guess accepted 5215: import
+target resamples at position 89: disc
+approx guess accepted 536: ord
+approx guess accepted 13: 
+
+approx guess accepted 5215: import
+target resamples at position 93: datetime
+approx guess accepted 13: 
+
+approx guess accepted 5215: import
+target resamples at position 96: config
+approx guess accepted 16680: parser
+approx guess accepted 13: 
+
+target resamples at position 99: from
+approx guess accepted 2313: disc
+approx guess accepted 536: ord
+approx guess accepted 29889: .
+approx guess accepted 1062: ext
+target samples 104: import
+approx guess accepted 8260: commands
+approx guess accepted 13: 
+
+approx guess accepted 3166: from
+approx guess accepted 2313: disc
+target samples 109: ord
+approx guess accepted 29889: .
+approx guess accepted 1062: ext
+approx guess accepted 29889: .
+approx guess accepted 26381: commands
+target samples 114: import
+approx guess accepted 11273: Bot
+approx guess accepted 13: 
+
+target resamples at position 117: 
+
+target resamples at position 118: 
+
+approx guess accepted 29937: #
+target resamples at position 120: 
+target resamples at position 121: �
+approx guess accepted 183: �
+approx guess accepted 138: �
+approx guess accepted 29871: 
+approx guess accepted 239: �
+target samples 126: �
+approx guess accepted 167: �
+approx guess accepted 30852: 정
+approx guess accepted 29871: 
+target resamples at position 130: �
+target resamples at position 131: �
+approx guess accepted 151: �
+approx guess accepted 239: �
+approx guess accepted 185: �
+approx guess accepted 159: �
+target samples 136: 
+
+approx guess accepted 2917: config
+approx guess accepted 353: =
+approx guess accepted 2295: config
+approx guess accepted 16680: parser
+target samples 141: .
+approx guess accepted 3991: Config
+approx guess accepted 11726: Parser
+approx guess accepted 580: ()
+approx guess accepted 13: 
+
+target samples 146: config
+approx guess accepted 29889: .
+approx guess accepted 949: read
+approx guess accepted 877: ('
+approx guess accepted 2917: config
+target samples 151: .
+approx guess accepted 2172: ini
+approx guess accepted 1495: ')
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target samples 156: TO
+approx guess accepted 29968: K
+approx guess accepted 1430: EN
+approx guess accepted 353: =
+approx guess accepted 2295: config
+target samples 161: ['
+target resamples at position 162: bot
+approx guess accepted 16215: ']['
+approx guess accepted 6979: token
+approx guess accepted 2033: ']
+approx guess accepted 13: 
+
+target samples 167: VERSION
+approx guess accepted 353: =
+approx guess accepted 2295: config
+approx guess accepted 1839: ['
+approx guess accepted 7451: bot
+target samples 172: ']['
+approx guess accepted 3259: version
+approx guess accepted 2033: ']
+approx guess accepted 13: 
+
+target resamples at position 176: OW
+approx guess accepted 13865: NER
+approx guess accepted 353: =
+approx guess accepted 2295: config
+approx guess accepted 1839: ['
+target samples 181: bot
+approx guess accepted 16215: ']['
+approx guess accepted 20348: owner
+approx guess accepted 2033: ']
+approx guess accepted 13: 
+
+target samples 186: PRE
+approx guess accepted 25634: FIX
+approx guess accepted 353: =
+approx guess accepted 2295: config
+approx guess accepted 1839: ['
+target samples 191: bot
+approx guess accepted 16215: ']['
+approx guess accepted 13506: prefix
+approx guess accepted 2033: ']
+approx guess accepted 13: 
+
+target samples 196: 
+
+target resamples at position 197: 
+
+approx guess accepted 29937: #
+approx guess accepted 29871: 
+approx guess accepted 238: �
+approx guess accepted 183: �
+target samples 202: �
+approx guess accepted 29871: 
+approx guess accepted 239: �
+approx guess accepted 135: �
+approx guess accepted 167: �
+target samples 207: 정
+approx guess accepted 13: 
+
+approx guess accepted 7451: bot
+approx guess accepted 353: =
+target resamples at position 211: Bot
+approx guess accepted 29898: (
+approx guess accepted 6519: command
+approx guess accepted 29918: _
+approx guess accepted 13506: prefix
+target samples 216: =
+generated tokens numbers 201, accepted_count 153, target_sample_count 32, resample_count 16
+google's speculative_sampling took 153.0593934059143 seconds.
+google's speculative_sampling: Create a function to find the factorial of a number in executable Python code.
+
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+
+print(factorial(5))
+ import os
+import sys
+import time
+import json
+import asyncio
+import requests
+import discord
+import datetime
+import configparser
+from discord.ext import commands
+from discord.ext.commands import Bot
+
+
+# 봇 설정 추출
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+TOKEN = config['bot']['token']
+VERSION = config['bot']['version']
+OWNER = config['bot']['owner']
+PREFIX = config['bot']['prefix']
+
+
+# 봇 설정
+bot = Bot(command_prefix=
+Done with Create a function to find the factorial of a number in executable Python code.
+Current Prompt: Calculate the sum of two numbers with executable Python code. Do not generate any instruction or comments in the code.
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-34b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 738.29283452034 seconds.
+large (target) model autoregressive_sampling: Calculate the sum of two numbers with executable Python code. Do not generate any instruction or comments in the code. For example, a function definition should look like:
+
+def foo():
+    pass
+
+or
+
+def foo():
+    """A function."""
+
+# Solution by Jack Rosenthal
+def add(a,b):
+    for _ in b:
+        a[1]+=1
+        if a[0]==a[1]:break
+    else:a[0]+=1
+    return a
+
+# Solution by /u/tazboy
+def add(a, b):
+    a[0] += b[0]
+    return a
+
+# Solution by /u/tazboy
+def add(a, b):
+    while 1:
+        a[0] += b[0]
+        b[0] -= b[0]
+        if not b[0]:
+            break
+        else:
+            b[0] += a[0]
+
+small (target) model autoregressive_sampling took 5.886548042297363 seconds.
+small (approx) model autoregressive_sampling: Calculate the sum of two numbers with executable Python code. Do not generate any instruction or comments in the code. Use a function that will take the two numbers and will return their sum.
+You can find the sum in this link. The BLUE GRASS 450 is an extremely tough, long lasting and durable fiber optic wire harness. Designed to be compatible with most popular fiber optic systems in the world, the BLUE GRASS 450 is available in a wide array of colors, configurations, and terminations to accommodate the various fiber optic systems on the market. These custom made fiber optic harnesses are available in 450mm or 500mm lengths. The 5th International Conference on Environment and Sustainability (ICES-2017) is being organized by Indian Institute of Technology Delhi (IITD) and International Center for Development of Advanced Computing (ICDAC) in association with IEEE International Sym
+accepted_count 155, resample_count 12
+deepmind's speculative_sampling took 165.1103060245514 seconds.
+deepmind's speculative_sampling: Calculate the sum of two numbers with executable Python code. Do not generate any instruction or comments in the code.
+
+\begin{code}
+def add(a, b):
+    return a + b
+\end{code}
+
+Comment: What is the question?
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target resamples at position 25: \
+approx guess accepted 463: begin
+approx guess accepted 29912: {
+approx guess accepted 401: code
+approx guess accepted 29913: }
+target samples 30: 
+
+approx guess accepted 1753: def
+target resamples at position 32: add
+approx guess accepted 29898: (
+approx guess accepted 29874: a
+approx guess accepted 29892: ,
+approx guess accepted 289: b
+target samples 37: ):
+approx guess accepted 13: 
+
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 263: a
+target samples 42: +
+approx guess accepted 289: b
+approx guess accepted 13: 
+
+approx guess accepted 29905: \
+approx guess accepted 355: end
+target samples 47: {
+approx guess accepted 401: code
+approx guess accepted 29913: }
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target samples 52: Comment
+approx guess accepted 29901: :
+target resamples at position 54: What
+approx guess accepted 338: is
+approx guess accepted 278: the
+approx guess accepted 1139: question
+approx guess accepted 29973: ?
+target samples 59: 
+
+approx guess accepted 13: 
+
+approx guess accepted 20001: Comment
+approx guess accepted 29901: :
+target resamples at position 63: @
+target resamples at position 64: M
+approx guess accepted 1131: att
+target resamples at position 66: hew
+target resamples at position 67: C
+target resamples at position 68: ox
+approx guess accepted 306: I
+approx guess accepted 1348: think
+approx guess accepted 278: the
+approx guess accepted 1139: question
+target samples 73: is
+approx guess accepted 376: "
+target resamples at position 75: how
+target resamples at position 76: can
+approx guess accepted 306: I
+target resamples at position 78: write
+approx guess accepted 445: this
+target resamples at position 80: function
+approx guess accepted 1728: without
+approx guess accepted 773: using
+approx guess accepted 278: the
+approx guess accepted 421: `
+target samples 85: +
+approx guess accepted 29952: `
+approx guess accepted 5455: operator
+approx guess accepted 3026: ?"
+approx guess accepted 13: 
+
+target samples 90: 
+
+approx guess accepted 20001: Comment
+approx guess accepted 29901: :
+approx guess accepted 732: @
+approx guess accepted 29924: M
+target samples 95: att
+approx guess accepted 13636: hew
+approx guess accepted 29907: C
+approx guess accepted 2251: ox
+approx guess accepted 306: I
+target samples 100: think
+approx guess accepted 278: the
+approx guess accepted 1139: question
+approx guess accepted 338: is
+approx guess accepted 376: "
+target samples 105: how
+approx guess accepted 508: can
+approx guess accepted 306: I
+approx guess accepted 2436: write
+approx guess accepted 445: this
+target samples 110: function
+approx guess accepted 1728: without
+approx guess accepted 773: using
+approx guess accepted 278: the
+approx guess accepted 421: `
+target samples 115: +
+approx guess accepted 29952: `
+approx guess accepted 5455: operator
+approx guess accepted 3026: ?"
+approx guess accepted 13: 
+
+target samples 120: 
+
+approx guess accepted 20001: Comment
+approx guess accepted 29901: :
+approx guess accepted 732: @
+approx guess accepted 29924: M
+target samples 125: att
+approx guess accepted 13636: hew
+approx guess accepted 29907: C
+approx guess accepted 2251: ox
+approx guess accepted 306: I
+target samples 130: think
+approx guess accepted 278: the
+approx guess accepted 1139: question
+approx guess accepted 338: is
+approx guess accepted 376: "
+target samples 135: how
+approx guess accepted 508: can
+approx guess accepted 306: I
+approx guess accepted 2436: write
+approx guess accepted 445: this
+target samples 140: function
+approx guess accepted 1728: without
+approx guess accepted 773: using
+approx guess accepted 278: the
+approx guess accepted 421: `
+target samples 145: +
+approx guess accepted 29952: `
+approx guess accepted 5455: operator
+approx guess accepted 3026: ?"
+approx guess accepted 13: 
+
+target samples 150: 
+
+approx guess accepted 20001: Comment
+approx guess accepted 29901: :
+approx guess accepted 732: @
+approx guess accepted 29924: M
+target samples 155: att
+approx guess accepted 13636: hew
+approx guess accepted 29907: C
+approx guess accepted 2251: ox
+approx guess accepted 306: I
+target samples 160: think
+approx guess accepted 278: the
+approx guess accepted 1139: question
+approx guess accepted 338: is
+approx guess accepted 376: "
+target samples 165: how
+approx guess accepted 508: can
+approx guess accepted 306: I
+approx guess accepted 2436: write
+approx guess accepted 445: this
+target samples 170: function
+approx guess accepted 1728: without
+approx guess accepted 773: using
+approx guess accepted 278: the
+approx guess accepted 421: `
+target samples 175: +
+approx guess accepted 29952: `
+approx guess accepted 5455: operator
+approx guess accepted 3026: ?"
+approx guess accepted 13: 
+
+target samples 180: 
+
+approx guess accepted 20001: Comment
+approx guess accepted 29901: :
+approx guess accepted 732: @
+approx guess accepted 29924: M
+target samples 185: att
+approx guess accepted 13636: hew
+approx guess accepted 29907: C
+approx guess accepted 2251: ox
+approx guess accepted 306: I
+target samples 190: think
+approx guess accepted 278: the
+approx guess accepted 1139: question
+approx guess accepted 338: is
+approx guess accepted 376: "
+target samples 195: how
+approx guess accepted 508: can
+approx guess accepted 306: I
+approx guess accepted 2436: write
+approx guess accepted 445: this
+target samples 200: function
+approx guess accepted 1728: without
+approx guess accepted 773: using
+approx guess accepted 278: the
+approx guess accepted 421: `
+target samples 205: +
+approx guess accepted 29952: `
+approx guess accepted 5455: operator
+approx guess accepted 3026: ?"
+approx guess accepted 13: 
+
+target samples 210: 
+
+approx guess accepted 20001: Comment
+approx guess accepted 29901: :
+approx guess accepted 732: @
+approx guess accepted 29924: M
+target samples 215: att
+approx guess accepted 13636: hew
+approx guess accepted 29907: C
+approx guess accepted 2251: ox
+approx guess accepted 306: I
+target samples 220: think
+approx guess accepted 278: the
+approx guess accepted 1139: question
+approx guess accepted 338: is
+approx guess accepted 376: "
+target samples 225: how
+generated tokens numbers 203, accepted_count 155, target_sample_count 36, resample_count 12
+google's speculative_sampling took 148.3688406944275 seconds.
+google's speculative_sampling: Calculate the sum of two numbers with executable Python code. Do not generate any instruction or comments in the code.
+
+\begin{code}
+def add(a, b):
+    return a + b
+\end{code}
+
+Comment: What is the question?
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how can I write this function without using the `+` operator?"
+
+Comment: @MatthewCox I think the question is "how
+Done with Calculate the sum of two numbers with executable Python code. Do not generate any instruction or comments in the code.
+Timing and difficulty information saved to output/10-prompts_output-7b-34b-0.json and output/30-prompts_output-7b-34b-0.txt

@@ -1,0 +1,373 @@
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-34b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 438.7881534099579 seconds.
+large (target) model autoregressive_sampling: Write a executable Python program to print 'Hello, World!'
+Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.
+Write a Python function to create a fibonacci series.
+Write a executable Python program to implement Euclid’s method of finding the greatest common divisor (GCD) of two numbers.
+Write a function to calculate the hypotenuse of a right angled triangle with executable Python code.
+Write a function to calculate the area of a triangle with executable Python code.
+Write a function to calculate the area of a square with executable Python code.
+Write a function to calculate the circumference and the surface area of a circle with executable Python code.
+Write a function
+small (target) model autoregressive_sampling took 3.078883171081543 seconds.
+small (approx) model autoregressive_sampling: Write a executable Python program to print 'Hello, World!'
+Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.
+Write a Python function to convert seconds into human readable format.
+Write a executable Python program to reverse a string.
+Write a executable Python program to calculate the Fibonacci series till N.
+Write a executable Python program to check if a string is a palindrome.
+Write a executable Python program to create a binary tree of fixed depth.
+Write a Python function to find the number of combinations for a given set of characters.
+Write a Python program to get the unique set of characters from a given string.
+Write a Python program to get the sum of the digits
+deepmind's speculative_sampling took 103.8936231136322 seconds.
+deepmind's speculative_sampling: Write a executable Python program to print 'Hello, World!'
+Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.
+Write a executable Python script to check if a number is even.
+Write a executable Python script to check if a number is odd.
+Write a executable Python script to check if a number is perfect.
+Write a executable Python script to check if a number is a palindrome.
+Write a executable Python script to check if a number is a prime number.
+Write a executable Python script to check if a number is a perfect square.
+Write a executable Python script to check if a number is a perfect cube.
+Write a executable Python script to check if a number is a perfect root
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+target samples 72: Python
+target resamples at position 73: script
+approx guess accepted 304: to
+target resamples at position 75: check
+approx guess accepted 565: if
+approx guess accepted 263: a
+approx guess accepted 1353: number
+approx guess accepted 338: is
+target samples 80: even
+target resamples at position 81: .
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+target samples 86: Python
+approx guess accepted 2471: script
+approx guess accepted 304: to
+approx guess accepted 1423: check
+approx guess accepted 565: if
+target samples 91: a
+approx guess accepted 1353: number
+approx guess accepted 338: is
+approx guess accepted 7736: odd
+approx guess accepted 29889: .
+target samples 96: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+target samples 101: script
+approx guess accepted 304: to
+target resamples at position 103: check
+approx guess accepted 565: if
+approx guess accepted 263: a
+approx guess accepted 1353: number
+approx guess accepted 338: is
+target samples 108: perfect
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+target samples 113: executable
+approx guess accepted 5132: Python
+approx guess accepted 2471: script
+approx guess accepted 304: to
+approx guess accepted 1423: check
+target samples 118: if
+approx guess accepted 263: a
+approx guess accepted 1353: number
+approx guess accepted 338: is
+target resamples at position 122: a
+target resamples at position 123: pal
+approx guess accepted 513: ind
+approx guess accepted 4871: rome
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+target samples 128: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+approx guess accepted 2471: script
+target samples 133: to
+approx guess accepted 1423: check
+approx guess accepted 565: if
+approx guess accepted 263: a
+approx guess accepted 1353: number
+target samples 138: is
+approx guess accepted 263: a
+target resamples at position 140: prime
+approx guess accepted 1353: number
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+target samples 145: a
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+approx guess accepted 2471: script
+approx guess accepted 304: to
+target samples 150: check
+approx guess accepted 565: if
+approx guess accepted 263: a
+approx guess accepted 1353: number
+approx guess accepted 338: is
+target samples 155: a
+approx guess accepted 4922: perfect
+approx guess accepted 6862: square
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+target samples 160: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+approx guess accepted 2471: script
+target samples 165: to
+approx guess accepted 1423: check
+approx guess accepted 565: if
+approx guess accepted 263: a
+approx guess accepted 1353: number
+target samples 170: is
+approx guess accepted 263: a
+approx guess accepted 4922: perfect
+approx guess accepted 28704: cube
+approx guess accepted 29889: .
+target samples 175: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+target samples 180: script
+approx guess accepted 304: to
+approx guess accepted 1423: check
+approx guess accepted 565: if
+approx guess accepted 263: a
+target samples 185: number
+approx guess accepted 338: is
+approx guess accepted 263: a
+approx guess accepted 4922: perfect
+target resamples at position 189: root
+generated tokens numbers 122, accepted_count 93, target_sample_count 21, resample_count 8
+google's speculative_sampling took 91.48969578742981 seconds.
+google's speculative_sampling: Write a executable Python program to print 'Hello, World!'
+Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.
+Write a executable Python script to check if a number is even.
+Write a executable Python script to check if a number is odd.
+Write a executable Python script to check if a number is perfect.
+Write a executable Python script to check if a number is a palindrome.
+Write a executable Python script to check if a number is a prime number.
+Write a executable Python script to check if a number is a perfect square.
+Write a executable Python script to check if a number is a perfect cube.
+Write a executable Python script to check if a number is a perfect root
+Done with Write a executable Python program to print 'Hello, World!'
+Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-34b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 453.3045856952667 seconds.
+large (target) model autoregressive_sampling: Develop a executable Python script for a basic e-commerce shopping cart.
+Design a Python class for a 'BankAccount' with methods using executable Python code.
+Create a executable Python program to implement a stack data structure.
+Write a executable Python script for a simple CRUD application.
+Implement a executable Python function for binary search in a sorted list.
+Implement a executable Python function for a bubble sort.
+Write a executable Python program for a calculator with functions for addition, subtraction, multiplication and division.
+Write a executable Python script to calculate the area of a circle.
+Create a executable Python script that generates a random number, and asks the user to guess the random number. The script will then print out if the user guesses right or wrong. You are here: Home / Fiction / The Art of Writing a Review: Why I Do it, and Why You Should, Too!
+The
+small (target) model autoregressive_sampling took 3.102717161178589 seconds.
+small (approx) model autoregressive_sampling: Develop a executable Python script for a basic e-commerce shopping cart.
+Design a Python class for a 'BankAccount' with methods using executable Python code.
+Create a executable Python program to implement a stack data structure.
+Write a executable Python script for a simple CRUD application.
+Implement a executable Python function for binary search in a sorted list.
+Implement a executable Python function for quick sort algorithm in Python.
+Implement a executable Python function for binary search in a sorted dictionary.
+Implement a executable Python function for quick sort algorithm in Python using in place partitioning.
+Implement a executable Python function for quick sort algorithm in Python using in place partitioning and recursion.
+Design a Python program to implement a Stack and Queue Data Structures using Python.
+Create a executable Python program for a simple CRUD application using SQLite3.
+Develop a executable Python script for an e-commerce website using Django.
+
+deepmind's speculative_sampling took 122.4828085899353 seconds.
+deepmind's speculative_sampling: Develop a executable Python script for a basic e-commerce shopping cart.
+Design a Python class for a 'BankAccount' with methods using executable Python code.
+Create a executable Python program to implement a stack data structure.
+Write a executable Python script for a simple CRUD application.
+Implement a executable Python function for binary search in a sorted list.
+Design a Python class for a 'BankAccount' with methods using executable Python code.
+Design a Python class for a 'BankAccount' with methods using executable Python code. The class should have the following attributes: accountNumber, name, balance, and transactionList. The class should have the following methods: deposit, withdraw, and getBalance.
+Write a executable Python script for a simple CRUD application. The application should have a menu driven interface. The application should have a class for the database. The class should have the following methods: create, read,
+approx guess accepted 13: 
+
+target resamples at position 77: Des
+approx guess accepted 647: ign
+approx guess accepted 263: a
+target resamples at position 80: Python
+approx guess accepted 770: class
+approx guess accepted 363: for
+approx guess accepted 263: a
+approx guess accepted 525: '
+target samples 85: B
+approx guess accepted 804: ank
+approx guess accepted 10601: Account
+approx guess accepted 29915: '
+approx guess accepted 411: with
+target samples 90: methods
+approx guess accepted 773: using
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+approx guess accepted 775: code
+target samples 95: .
+approx guess accepted 13: 
+
+target resamples at position 97: Des
+approx guess accepted 647: ign
+approx guess accepted 263: a
+approx guess accepted 5132: Python
+approx guess accepted 770: class
+target samples 102: for
+approx guess accepted 263: a
+approx guess accepted 525: '
+approx guess accepted 29933: B
+approx guess accepted 804: ank
+target samples 107: Account
+approx guess accepted 29915: '
+approx guess accepted 411: with
+approx guess accepted 3519: methods
+approx guess accepted 773: using
+target samples 112: executable
+approx guess accepted 5132: Python
+approx guess accepted 775: code
+approx guess accepted 29889: .
+target resamples at position 116: The
+approx guess accepted 770: class
+approx guess accepted 881: should
+approx guess accepted 505: have
+target resamples at position 120: the
+approx guess accepted 1494: following
+target resamples at position 122: attributes
+approx guess accepted 29901: :
+approx guess accepted 3633: account
+target resamples at position 125: Number
+approx guess accepted 29892: ,
+target resamples at position 127: name
+approx guess accepted 29892: ,
+approx guess accepted 17346: balance
+approx guess accepted 29892: ,
+approx guess accepted 322: and
+target samples 132: transaction
+target resamples at position 133: List
+approx guess accepted 29889: .
+approx guess accepted 450: The
+approx guess accepted 770: class
+approx guess accepted 881: should
+target samples 138: have
+approx guess accepted 278: the
+approx guess accepted 1494: following
+approx guess accepted 3519: methods
+approx guess accepted 29901: :
+target samples 143: depos
+approx guess accepted 277: it
+approx guess accepted 29892: ,
+approx guess accepted 28679: withdraw
+approx guess accepted 29892: ,
+target samples 148: and
+approx guess accepted 679: get
+approx guess accepted 22031: Bal
+approx guess accepted 749: ance
+approx guess accepted 29889: .
+target samples 153: 
+
+target resamples at position 154: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+approx guess accepted 2471: script
+target samples 159: for
+approx guess accepted 263: a
+approx guess accepted 2560: simple
+approx guess accepted 15600: CR
+approx guess accepted 15789: UD
+target samples 164: application
+approx guess accepted 29889: .
+approx guess accepted 450: The
+approx guess accepted 2280: application
+approx guess accepted 881: should
+target samples 169: have
+target resamples at position 170: a
+approx guess accepted 6143: menu
+target resamples at position 172: driven
+approx guess accepted 5067: interface
+approx guess accepted 29889: .
+approx guess accepted 450: The
+approx guess accepted 2280: application
+target samples 177: should
+approx guess accepted 505: have
+target resamples at position 179: a
+target resamples at position 180: class
+approx guess accepted 363: for
+target resamples at position 182: the
+approx guess accepted 2566: database
+target resamples at position 184: .
+approx guess accepted 450: The
+approx guess accepted 770: class
+approx guess accepted 881: should
+approx guess accepted 505: have
+target samples 189: the
+approx guess accepted 1494: following
+target resamples at position 191: methods
+approx guess accepted 29901: :
+approx guess accepted 1653: create
+approx guess accepted 29892: ,
+approx guess accepted 1303: read
+target samples 196: ,
+generated tokens numbers 121, accepted_count 87, target_sample_count 17, resample_count 17
+google's speculative_sampling took 113.64815497398376 seconds.
+google's speculative_sampling: Develop a executable Python script for a basic e-commerce shopping cart.
+Design a Python class for a 'BankAccount' with methods using executable Python code.
+Create a executable Python program to implement a stack data structure.
+Write a executable Python script for a simple CRUD application.
+Implement a executable Python function for binary search in a sorted list.
+Design a Python class for a 'BankAccount' with methods using executable Python code.
+Design a Python class for a 'BankAccount' with methods using executable Python code. The class should have the following attributes: accountNumber, name, balance, and transactionList. The class should have the following methods: deposit, withdraw, and getBalance.
+Write a executable Python script for a simple CRUD application. The application should have a menu driven interface. The application should have a class for the database. The class should have the following methods: create, read,
+Done with Develop a executable Python script for a basic e-commerce shopping cart.
+Design a Python class for a 'BankAccount' with methods using executable Python code.
+Create a executable Python program to implement a stack data structure.
+Write a executable Python script for a simple CRUD application.
+Implement a executable Python function for binary search in a sorted list.
+Timing and difficulty information saved to output/10-prompts_output-7b-34b.json and output/30-prompts_output-7b-34b.txt

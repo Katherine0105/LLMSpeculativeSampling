@@ -1,0 +1,207 @@
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-34b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 451.3541781902313 seconds.
+large (target) model autoregressive_sampling: Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python program to print 'Hello, World!'
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.
+Implement a executable Python function to count the number of digits in a number.
+Write a executable Python function to sort a list of strings.
+Implement a executable Python script to reverse a string.
+Implement a executable Python function to check whether two strings are anagrams.
+Implement a executable Python script to sort a list of strings.
+Implement a executable Python function to swap two numbers in a list.
+Implement a executable Python script to count the number of even numbers in a list.
+Write a executable Python function to remove empty strings from a list.
+small (target) model autoregressive_sampling took 3.051767110824585 seconds.
+small (approx) model autoregressive_sampling: Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python program to print 'Hello, World!'
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.
+Write a Python function to create a dictionary with three integers.
+Write a Python function to check if a list is sorted in ascending order.
+Create a program that prints the following pattern:
+ #! /usr/bin/env python3
+import sys
+import os
+import time
+
+# import pudb
+# pu.db
+
+
+from sklearn.metrics import f1_score
+import numpy as np
+
+from pygration import *
+
+
+def test_train():
+
+    if "PYGRATION_HOME"
+deepmind's speculative_sampling took 91.13128447532654 seconds.
+deepmind's speculative_sampling: Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python program to print 'Hello, World!'
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.
+Write a executable Python function to find the sum of a list of numbers.
+Write a executable Python function to find the average of a list of numbers.
+Write a executable Python function to find the largest number in a list.
+Write a executable Python function to find the smallest number in a list.
+Write a executable Python function to find the median of a list of numbers.
+Write a executable Python function to find the mode of a list of numbers.
+Write a executable Python function to find the range of a list of numbers.
+Write a executable Python function to find the variance
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+target samples 72: Python
+target resamples at position 73: function
+approx guess accepted 304: to
+target resamples at position 75: find
+approx guess accepted 278: the
+approx guess accepted 2533: sum
+approx guess accepted 310: of
+target resamples at position 79: a
+approx guess accepted 1051: list
+approx guess accepted 310: of
+approx guess accepted 3694: numbers
+approx guess accepted 29889: .
+target samples 84: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+target samples 89: function
+approx guess accepted 304: to
+approx guess accepted 1284: find
+approx guess accepted 278: the
+approx guess accepted 6588: average
+target samples 94: of
+approx guess accepted 263: a
+approx guess accepted 1051: list
+approx guess accepted 310: of
+approx guess accepted 3694: numbers
+target samples 99: .
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+target samples 104: Python
+approx guess accepted 740: function
+approx guess accepted 304: to
+approx guess accepted 1284: find
+approx guess accepted 278: the
+target samples 109: largest
+approx guess accepted 1353: number
+approx guess accepted 297: in
+approx guess accepted 263: a
+approx guess accepted 1051: list
+target samples 114: .
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+target samples 119: Python
+approx guess accepted 740: function
+approx guess accepted 304: to
+approx guess accepted 1284: find
+approx guess accepted 278: the
+target samples 124: smallest
+approx guess accepted 1353: number
+approx guess accepted 297: in
+approx guess accepted 263: a
+approx guess accepted 1051: list
+target samples 129: .
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+target samples 134: Python
+approx guess accepted 740: function
+approx guess accepted 304: to
+approx guess accepted 1284: find
+approx guess accepted 278: the
+target samples 139: median
+approx guess accepted 310: of
+approx guess accepted 263: a
+approx guess accepted 1051: list
+approx guess accepted 310: of
+target samples 144: numbers
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+target samples 149: executable
+approx guess accepted 5132: Python
+approx guess accepted 740: function
+approx guess accepted 304: to
+approx guess accepted 1284: find
+target samples 154: the
+approx guess accepted 4464: mode
+approx guess accepted 310: of
+approx guess accepted 263: a
+approx guess accepted 1051: list
+target samples 159: of
+approx guess accepted 3694: numbers
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+target samples 164: a
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+approx guess accepted 740: function
+approx guess accepted 304: to
+target samples 169: find
+approx guess accepted 278: the
+approx guess accepted 3464: range
+approx guess accepted 310: of
+approx guess accepted 263: a
+target samples 174: list
+approx guess accepted 310: of
+approx guess accepted 3694: numbers
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+target samples 179: Write
+approx guess accepted 263: a
+approx guess accepted 16813: executable
+approx guess accepted 5132: Python
+approx guess accepted 740: function
+target samples 184: to
+approx guess accepted 1284: find
+approx guess accepted 278: the
+target resamples at position 187: variance
+generated tokens numbers 120, accepted_count 94, target_sample_count 22, resample_count 4
+google's speculative_sampling took 84.39422845840454 seconds.
+google's speculative_sampling: Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python program to print 'Hello, World!'
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.
+Write a executable Python function to find the sum of a list of numbers.
+Write a executable Python function to find the average of a list of numbers.
+Write a executable Python function to find the largest number in a list.
+Write a executable Python function to find the smallest number in a list.
+Write a executable Python function to find the median of a list of numbers.
+Write a executable Python function to find the mode of a list of numbers.
+Write a executable Python function to find the range of a list of numbers.
+Write a executable Python function to find the variance
+Done with Calculate the sum of two numbers with executable Python code.
+Create a function to find the factorial of a number in executable Python code.
+Write a executable Python program to print 'Hello, World!'
+Write a executable Python function to reverse a string.
+Implement a executable Python script to check if a number is prime.

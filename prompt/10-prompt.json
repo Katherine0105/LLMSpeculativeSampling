@@ -1,0 +1,24 @@
+{
+  "hard": [
+    {
+      "summary": "Build e-commerce shopping cart",
+      "prompt": "Develop a executable Python script for a basic e-commerce shopping cart."
+    },
+    {
+      "summary": "Design 'BankAccount' class",
+      "prompt": "Design a Python class for a 'BankAccount' with methods using executable Python code."
+    }
+  ],  
+  "easy": [
+      {
+        "summary": "Find factorial of a number",
+        "prompt": "Create a function to find the factorial of a number in executable Python code."
+      },
+      {
+        "summary": "Calculate sum of two numbers",
+        "prompt": "Calculate the sum of two numbers with executable Python code. Do not generate any instruction or comments in the code."
+      }
+    ]
+    
+  }
+  
