@@ -1,0 +1,1589 @@
+Current Prompt: Write a Python program to print 'Hello, World!' \nprint('Hello, World!')
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 3.4961705207824707 seconds.
+large (target) model autoregressive_sampling: Write a Python program to print 'Hello, World!' \nprint('Hello, World!')
+print("Hello, World!") from . import api
+from flask import request,jsonify,current_app,url_for,g
+from iHome.models import Area,Facility
+from iHome.utils.response_code import RET
+import re
+
+small (target) model autoregressive_sampling took 1.4977836608886719 seconds.
+small (approx) model autoregressive_sampling: Write a Python program to print 'Hello, World!' \nprint('Hello, World!')
+print("Hello, World!")
+print('Hello, World!')
+print("Hello,", "World!")
+print("Hello,", end=' ')
+print("World!")
+
+print(r"Hello, World!")
+
+print("Hello", '','
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 1596: print
+target resamples at position 28: two
+approx guess accepted 3454: lines
+target resamples at position 30: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 1596: print
+target resamples at position 39: two
+approx guess accepted 3454: lines
+target resamples at position 41: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 1596: print
+approx guess accepted 1023: two
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 5132: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 1596: print
+approx guess accepted 3454: lines
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 263: a
+approx guess accepted 5132: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 1023: two
+approx guess accepted 3454: lines
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 5132: Python
+approx guess accepted 1824: program
+accepted_count 48, resample_count 4
+deepmind's speculative_sampling took 3.173492670059204 seconds.
+deepmind's speculative_sampling: Write a Python program to print 'Hello, World!' \nprint('Hello, World!')
+
+Write a Python program to print two lines.
+
+Write a Python program to print two lines.
+
+Write a Python program to print two lines.
+
+Write a Python program to print two lines.
+
+Write a Python program to print two lines.
+
+Write a Python program to
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+target samples 24: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 1596: print
+tensor([[1023]], device='cuda:0')
+t_1 is None
+target resamples at position 28: two
+approx guess accepted 3454: lines
+tensor([[29889]], device='cuda:0')
+t_1 is None
+target resamples at position 30: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+target samples 35: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 1596: print
+tensor([[1023]], device='cuda:0')
+t_1 is None
+target resamples at position 39: two
+approx guess accepted 3454: lines
+tensor([[29889]], device='cuda:0')
+t_1 is None
+target resamples at position 41: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+target samples 46: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 1596: print
+approx guess accepted 1023: two
+target samples 51: lines
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+target samples 56: a
+approx guess accepted 5132: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 1596: print
+target samples 61: two
+approx guess accepted 3454: lines
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target samples 66: Write
+approx guess accepted 263: a
+approx guess accepted 5132: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+target samples 71: print
+approx guess accepted 1023: two
+approx guess accepted 3454: lines
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+target samples 76: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 5132: Python
+approx guess accepted 1824: program
+target samples 81: to
+generated tokens numbers 62, accepted_count 48, target_sample_count 10, resample_count 4
+google's speculative_sampling took 3.0466408729553223 seconds.
+google's speculative_sampling: Write a Python program to print 'Hello, World!' \nprint('Hello, World!')
+
+Write a Python program to print two lines.
+
+Write a Python program to print two lines.
+
+Write a Python program to print two lines.
+
+Write a Python program to print two lines.
+
+Write a Python program to print two lines.
+
+Write a Python program to
+Done with Write a Python program to print 'Hello, World!' \nprint('Hello, World!')
+Current Prompt: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 5.455500841140747 seconds.
+large (target) model autoregressive_sampling: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b): return a+b \n# Driver code \nnum1 = int(input()) \nnum2 = int(input()) \nsum = sum2Numbers(num1, num2) \nprint(f"Sum of {num1} and {num2} is:
+small (target) model autoregressive_sampling took 2.7478606700897217 seconds.
+small (approx) model autoregressive_sampling: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):\n    return a+b\nprint(sum2Numbers(2, 3))
+#Calculate the sum of two numbers in Python.
+#
+#Input Format
+#
+#Two Integers a and b separated by a space.
+#
+#Constraints
+
+target resamples at position 21: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 263: a
+approx guess accepted 289: b
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+approx guess accepted 2083: sum
+approx guess accepted 29906: 2
+approx guess accepted 29898: (
+approx guess accepted 29896: 1
+approx guess accepted 29892: ,
+approx guess accepted 29871: 
+approx guess accepted 876: ))
+target resamples at position 43: "
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target resamples at position 46: #
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+target resamples at position 50: 1
+target resamples at position 51: 0
+approx guess accepted 13: 
+
+target resamples at position 53: #
+target resamples at position 54: Write
+approx guess accepted 263: a
+approx guess accepted 5132: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 278: the
+target resamples at position 61: sum
+approx guess accepted 310: of
+target resamples at position 63: three
+approx guess accepted 3694: numbers
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+approx guess accepted 29896: 1
+approx guess accepted 13: 
+
+approx guess accepted 29937: #
+approx guess accepted 14350: Write
+approx guess accepted 263: a
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 8147: calculate
+approx guess accepted 278: the
+accepted_count 45, resample_count 9
+deepmind's speculative_sampling took 5.782794952392578 seconds.
+deepmind's speculative_sampling: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):\n    return a + b\n\nprint(sum2Numbers(1, 4))"
+
+# 1.10
+# Write a Python program to calculate the sum of three numbers.
+
+# 1.11
+# Write a Python program to calculate the sum
+tensor([[29905]], device='cuda:0')
+t_1 is None
+target resamples at position 21: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 263: a
+target samples 26: +
+approx guess accepted 289: b
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+target samples 31: n
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+approx guess accepted 2083: sum
+approx guess accepted 29906: 2
+target samples 36: Numbers
+approx guess accepted 29898: (
+approx guess accepted 29896: 1
+approx guess accepted 29892: ,
+approx guess accepted 29871: 
+target samples 41: 4
+approx guess accepted 876: ))
+tensor([[29908]], device='cuda:0')
+t_1 is None
+target resamples at position 43: "
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+tensor([[29937]], device='cuda:0')
+t_1 is None
+target resamples at position 46: #
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+tensor([[29896]], device='cuda:0')
+t_1 is None
+target resamples at position 50: 1
+tensor([[29900]], device='cuda:0')
+t_1 is None
+target resamples at position 51: 0
+approx guess accepted 13: 
+
+tensor([[29937]], device='cuda:0')
+t_1 is None
+target resamples at position 53: #
+tensor([[14350]], device='cuda:0')
+t_1 is None
+target resamples at position 54: Write
+approx guess accepted 263: a
+approx guess accepted 5132: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+target samples 59: calculate
+approx guess accepted 278: the
+tensor([[2533]], device='cuda:0')
+t_1 is None
+target resamples at position 61: sum
+approx guess accepted 310: of
+tensor([[2211]], device='cuda:0')
+t_1 is None
+target resamples at position 63: three
+approx guess accepted 3694: numbers
+approx guess accepted 29889: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target samples 68: #
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+approx guess accepted 29896: 1
+target samples 73: 1
+approx guess accepted 13: 
+
+approx guess accepted 29937: #
+approx guess accepted 14350: Write
+approx guess accepted 263: a
+target samples 78: Python
+approx guess accepted 1824: program
+approx guess accepted 304: to
+approx guess accepted 8147: calculate
+approx guess accepted 278: the
+target samples 83: sum
+generated tokens numbers 63, accepted_count 45, target_sample_count 9, resample_count 9
+google's speculative_sampling took 4.740555763244629 seconds.
+google's speculative_sampling: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):\n    return a + b\n\nprint(sum2Numbers(1, 4))"
+
+# 1.10
+# Write a Python program to calculate the sum of three numbers.
+
+# 1.11
+# Write a Python program to calculate the sum
+Done with Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):
+Current Prompt: Write a Python function to find the square of a number. \ndef square(n):
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 4.241079568862915 seconds.
+large (target) model autoregressive_sampling: Write a Python function to find the square of a number. \ndef square(n): return n*n \nprint("Square of 2 is ", square(2))
+
+#Square of 2 is  4
+
+#Write a Python program to find the value of Pi.
+import math
+print(math.pi)
+#3.14
+small (target) model autoregressive_sampling took 2.5793192386627197 seconds.
+small (approx) model autoregressive_sampling: Write a Python function to find the square of a number. \ndef square(n): return n*n \n# Sample function call: \nsquare(2) \n# Expected Result: 4
+Write a Python function to find the square of a number.
+def square(n): return n*n
+# Sample function call: square(2)
+
+approx guess accepted 320: \
+approx guess accepted 29876: n
+target resamples at position 21:   
+approx guess accepted 736: return
+approx guess accepted 302: n
+approx guess accepted 29930: *
+approx guess accepted 29876: n
+approx guess accepted 29876: n
+target resamples at position 28: print
+approx guess accepted 29898: (
+approx guess accepted 17619: square
+approx guess accepted 29898: (
+target resamples at position 32: 1
+approx guess accepted 29900: 0
+approx guess accepted 876: ))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29898: (
+approx guess accepted 17619: square
+approx guess accepted 29898: (
+target resamples at position 41: 1
+target resamples at position 42: 5
+approx guess accepted 876: ))
+target resamples at position 44: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 5132: Python
+approx guess accepted 304: to
+approx guess accepted 1284: find
+approx guess accepted 278: the
+target resamples at position 53: square
+target resamples at position 54: root
+approx guess accepted 310: of
+approx guess accepted 263: a
+approx guess accepted 1353: number
+approx guess accepted 29889: .
+approx guess accepted 299: nd
+approx guess accepted 1389: ef
+approx guess accepted 6862: square
+approx guess accepted 29918: _
+approx guess accepted 29898: (
+approx guess accepted 29876: n
+approx guess accepted 1125: ):
+approx guess accepted 320: \
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 302: n
+approx guess accepted 1068: **
+approx guess accepted 29889: .
+approx guess accepted 29945: 5
+approx guess accepted 320: \
+approx guess accepted 29876: n
+accepted_count 45, resample_count 8
+deepmind's speculative_sampling took 3.9480700492858887 seconds.
+deepmind's speculative_sampling: Write a Python function to find the square of a number. \ndef square(n): \n    return n*n \nprint(square(10)) \nprint(square(15))
+
+Write a Python function to find the square root of a number. \ndef square_root(n): \n    return n**0.5 \nprint
+approx guess accepted 320: \
+approx guess accepted 29876: n
+tensor([[1678]], device='cuda:0')
+t_1 is None
+target resamples at position 21:   
+approx guess accepted 736: return
+approx guess accepted 302: n
+approx guess accepted 29930: *
+approx guess accepted 29876: n
+target samples 26: \
+approx guess accepted 29876: n
+tensor([[2158]], device='cuda:0')
+t_1 is None
+target resamples at position 28: print
+approx guess accepted 29898: (
+approx guess accepted 17619: square
+approx guess accepted 29898: (
+tensor([[29896]], device='cuda:0')
+t_1 is None
+target resamples at position 32: 1
+approx guess accepted 29900: 0
+approx guess accepted 876: ))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+target samples 37: print
+approx guess accepted 29898: (
+approx guess accepted 17619: square
+approx guess accepted 29898: (
+tensor([[29896]], device='cuda:0')
+t_1 is None
+target resamples at position 41: 1
+tensor([[29945]], device='cuda:0')
+t_1 is None
+target resamples at position 42: 5
+approx guess accepted 876: ))
+tensor([[13]], device='cuda:0')
+t_1 is None
+target resamples at position 44: 
+
+approx guess accepted 13: 
+
+approx guess accepted 6113: Write
+approx guess accepted 263: a
+approx guess accepted 5132: Python
+target samples 49: function
+approx guess accepted 304: to
+approx guess accepted 1284: find
+approx guess accepted 278: the
+tensor([[6862]], device='cuda:0')
+t_1 is None
+target resamples at position 53: square
+tensor([[3876]], device='cuda:0')
+t_1 is None
+target resamples at position 54: root
+approx guess accepted 310: of
+approx guess accepted 263: a
+approx guess accepted 1353: number
+approx guess accepted 29889: .
+target samples 59: \
+approx guess accepted 299: nd
+approx guess accepted 1389: ef
+approx guess accepted 6862: square
+approx guess accepted 29918: _
+target samples 64: root
+approx guess accepted 29898: (
+approx guess accepted 29876: n
+approx guess accepted 1125: ):
+approx guess accepted 320: \
+target samples 69: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 302: n
+approx guess accepted 1068: **
+target samples 74: 0
+approx guess accepted 29889: .
+approx guess accepted 29945: 5
+approx guess accepted 320: \
+approx guess accepted 29876: n
+target samples 79: print
+generated tokens numbers 61, accepted_count 45, target_sample_count 8, resample_count 8
+google's speculative_sampling took 2.70593523979187 seconds.
+google's speculative_sampling: Write a Python function to find the square of a number. \ndef square(n): \n    return n*n \nprint(square(10)) \nprint(square(15))
+
+Write a Python function to find the square root of a number. \ndef square_root(n): \n    return n**0.5 \nprint
+Done with Write a Python function to find the square of a number. \ndef square(n):
+Current Prompt: Create a Python function to reverse a given string. \ndef reverse_string(s):
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 5.015108108520508 seconds.
+large (target) model autoregressive_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): return s[::-1] \nprint(reverse_string('abcde')) \nprint(reverse_string('123')) \nprint(reverse_string(str(input('Enter string: ')))) \nprint(reverse_string(str(input('Enter
+small (target) model autoregressive_sampling took 3.0356554985046387 seconds.
+small (approx) model autoregressive_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): return s[::-1] \nprint reverse_string('12345') # 54321 \n>>> \n\n# Code credit - Day 1 ProgramChallenge\n\nCreate a Python function to calculate the factorial of a
+target resamples at position 19: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 269: s
+approx guess accepted 1057: ::
+approx guess accepted 29899: -
+approx guess accepted 29896: 1
+approx guess accepted 29962: ]
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+target resamples at position 33: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target resamples at position 39: I
+target resamples at position 40: love
+approx guess accepted 5132: Python
+approx guess accepted 8785: '))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target resamples at position 51: Re
+approx guess accepted 3901: verse
+target resamples at position 53: Me
+target resamples at position 54: !
+approx guess accepted 8785: '))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 2158: print
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+approx guess accepted 877: ('
+approx guess accepted 29906: 2
+approx guess accepted 29941: 3
+approx guess accepted 29946: 4
+approx guess accepted 29945: 5
+approx guess accepted 29955: 7
+approx guess accepted 29947: 8
+approx guess accepted 29929: 9
+approx guess accepted 8785: '))
+approx guess accepted 29876: n
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+accepted_count 44, resample_count 7
+deepmind's speculative_sampling took 5.022639751434326 seconds.
+deepmind's speculative_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): \n    return s[::-1] \n\nprint(reverse_string('I love Python')) \nprint(reverse_string('Reverse Me!')) \nprint(reverse_string('123456789')) \nprint(reverse_
+tensor([[320]], device='cuda:0')
+t_1 is None
+target resamples at position 19: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 269: s
+target samples 24: [
+approx guess accepted 1057: ::
+approx guess accepted 29899: -
+approx guess accepted 29896: 1
+approx guess accepted 29962: ]
+target samples 29: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+tensor([[2158]], device='cuda:0')
+t_1 is None
+target resamples at position 33: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target samples 38: ('
+tensor([[29902]], device='cuda:0')
+t_1 is None
+target resamples at position 39: I
+tensor([[5360]], device='cuda:0')
+t_1 is None
+target resamples at position 40: love
+approx guess accepted 5132: Python
+approx guess accepted 8785: '))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+target samples 45: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target samples 50: ('
+tensor([[1123]], device='cuda:0')
+t_1 is None
+target resamples at position 51: Re
+approx guess accepted 3901: verse
+tensor([[2191]], device='cuda:0')
+t_1 is None
+target resamples at position 53: Me
+tensor([[29991]], device='cuda:0')
+t_1 is None
+target resamples at position 54: !
+approx guess accepted 8785: '))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 2158: print
+target samples 59: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+approx guess accepted 877: ('
+target samples 64: 1
+approx guess accepted 29906: 2
+approx guess accepted 29941: 3
+approx guess accepted 29946: 4
+approx guess accepted 29945: 5
+target samples 69: 6
+approx guess accepted 29955: 7
+approx guess accepted 29947: 8
+approx guess accepted 29929: 9
+approx guess accepted 8785: '))
+target samples 74: \
+approx guess accepted 29876: n
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+target samples 79: _
+generated tokens numbers 61, accepted_count 44, target_sample_count 10, resample_count 7
+google's speculative_sampling took 3.786998987197876 seconds.
+google's speculative_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): \n    return s[::-1] \n\nprint(reverse_string('I love Python')) \nprint(reverse_string('Reverse Me!')) \nprint(reverse_string('123456789')) \nprint(reverse_
+Done with Create a Python function to reverse a given string. \ndef reverse_string(s):
+Current Prompt: Implement a Python script to check if a number is prime. \ndef is_prime(n):
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 4.369877576828003 seconds.
+large (target) model autoregressive_sampling: Implement a Python script to check if a number is prime. \ndef is_prime(n):   for i in range(2, n):        if n % i == 0:            return False   return True\nif __name__ == '__main__':   for i in range(20):        print(i, is_prime(i))",
+   
+small (target) model autoregressive_sampling took 3.454444408416748 seconds.
+small (approx) model autoregressive_sampling: Implement a Python script to check if a number is prime. \ndef is_prime(n): return n >= 2 and not any(n%x == 0 for x in range(2, n))
+# Output:
+# True
+# True
+# False
+# True
+# True
+
+import math
+
+def is_prime(n):
+	if n
+target resamples at position 22: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+target resamples at position 25: for
+approx guess accepted 474: i
+approx guess accepted 297: in
+approx guess accepted 3464: range
+approx guess accepted 29898: (
+approx guess accepted 29892: ,
+approx guess accepted 302: n
+approx guess accepted 1125: ):
+approx guess accepted 29905: \
+approx guess accepted 4706:       
+approx guess accepted 565: if
+approx guess accepted 302: n
+approx guess accepted 1273: %
+approx guess accepted 1275: ==
+approx guess accepted 29871: 
+approx guess accepted 29900: 0
+approx guess accepted 3583: :\
+approx guess accepted 9651:           
+approx guess accepted 736: return
+approx guess accepted 7700: False
+approx guess accepted 29905: \
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 5852: True
+approx guess accepted 29905: \
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+approx guess accepted 29918: _
+approx guess accepted 10080: prime
+approx guess accepted 29898: (
+approx guess accepted 29896: 1
+target resamples at position 66: ))
+approx guess accepted 396: #
+approx guess accepted 5852: True
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+approx guess accepted 29898: (
+approx guess accepted 275: is
+approx guess accepted 29918: _
+approx guess accepted 10080: prime
+approx guess accepted 29896: 1
+approx guess accepted 29906: 2
+approx guess accepted 876: ))
+approx guess accepted 396: #
+accepted_count 46, resample_count 3
+deepmind's speculative_sampling took 5.289075613021851 seconds.
+deepmind's speculative_sampling: Implement a Python script to check if a number is prime. \ndef is_prime(n):\n    for i in range(2, n):\n        if n % i == 0:\n            return False\n    return True\n\nprint(is_prime(11)) # True\nprint(is_prime(12)) # False
+tensor([[29905]], device='cuda:0')
+t_1 is None
+target resamples at position 22: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+tensor([[363]], device='cuda:0')
+t_1 is None
+target resamples at position 25: for
+approx guess accepted 474: i
+approx guess accepted 297: in
+approx guess accepted 3464: range
+approx guess accepted 29898: (
+target samples 30: 2
+approx guess accepted 29892: ,
+approx guess accepted 302: n
+approx guess accepted 1125: ):
+approx guess accepted 29905: \
+target samples 35: n
+approx guess accepted 4706:       
+approx guess accepted 565: if
+approx guess accepted 302: n
+approx guess accepted 1273: %
+target samples 40: i
+approx guess accepted 1275: ==
+approx guess accepted 29871: 
+approx guess accepted 29900: 0
+approx guess accepted 3583: :\
+target samples 45: n
+approx guess accepted 9651:           
+approx guess accepted 736: return
+approx guess accepted 7700: False
+approx guess accepted 29905: \
+target samples 50: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 5852: True
+approx guess accepted 29905: \
+target samples 55: n
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+target samples 60: is
+approx guess accepted 29918: _
+approx guess accepted 10080: prime
+approx guess accepted 29898: (
+approx guess accepted 29896: 1
+target samples 65: 1
+tensor([[876]], device='cuda:0')
+t_1 is None
+target resamples at position 66: ))
+approx guess accepted 396: #
+approx guess accepted 5852: True
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+target samples 71: print
+approx guess accepted 29898: (
+approx guess accepted 275: is
+approx guess accepted 29918: _
+approx guess accepted 10080: prime
+target samples 76: (
+approx guess accepted 29896: 1
+approx guess accepted 29906: 2
+approx guess accepted 876: ))
+approx guess accepted 396: #
+target samples 81: False
+generated tokens numbers 60, accepted_count 46, target_sample_count 11, resample_count 3
+google's speculative_sampling took 4.327489852905273 seconds.
+google's speculative_sampling: Implement a Python script to check if a number is prime. \ndef is_prime(n):\n    for i in range(2, n):\n        if n % i == 0:\n            return False\n    return True\n\nprint(is_prime(11)) # True\nprint(is_prime(12)) # False
+Done with Implement a Python script to check if a number is prime. \ndef is_prime(n):
+Current Prompt: Write a Python function to convert Celsius to Fahrenheit. \ndef celsius_to_fahrenheit(celsius):
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 3.29536771774292 seconds.
+large (target) model autoregressive_sampling: Write a Python function to convert Celsius to Fahrenheit. \ndef celsius_to_fahrenheit(celsius):\n    fahrenheit = ((9/5) * celsius) + 32 \n    return fahrenheit \n\nprint(f"{32} celsius = {celsius_to_fahrenheit(32)} fahrenheit
+small (target) model autoregressive_sampling took 1.5258748531341553 seconds.
+small (approx) model autoregressive_sampling: Write a Python function to convert Celsius to Fahrenheit. \ndef celsius_to_fahrenheit(celsius):\n    fahrenheit = 9 * celsius / 5 + 32\n    return fahrenheit\n\n\nWrite a Python program to convert Fahrenheit to Celsius.\ndef fahrenheit_to_celsius(fahren
+approx guess accepted 320: \
+approx guess accepted 29876: n
+target resamples at position 32:   
+target resamples at position 33: f
+approx guess accepted 21446: ahren
+approx guess accepted 6884: heit
+approx guess accepted 353: =
+approx guess accepted 313: (
+approx guess accepted 1039: si
+approx guess accepted 375: us
+approx guess accepted 334: *
+approx guess accepted 29871: 
+approx guess accepted 29914: /
+approx guess accepted 29945: 5
+approx guess accepted 29897: )
+approx guess accepted 718: +
+approx guess accepted 29941: 3
+approx guess accepted 29906: 2
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 736: return
+approx guess accepted 285: f
+approx guess accepted 21446: ahren
+approx guess accepted 6884: heit
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+target resamples at position 62: print
+approx guess accepted 29898: (
+approx guess accepted 2242: cel
+approx guess accepted 1039: si
+approx guess accepted 375: us
+approx guess accepted 517: to
+approx guess accepted 29918: _
+approx guess accepted 19243: fahren
+approx guess accepted 6884: heit
+approx guess accepted 29896: 1
+approx guess accepted 29900: 0
+approx guess accepted 29900: 0
+approx guess accepted 876: ))
+approx guess accepted 29876: n
+target resamples at position 79: print
+approx guess accepted 29898: (
+approx guess accepted 2242: cel
+approx guess accepted 1039: si
+approx guess accepted 375: us
+approx guess accepted 517: to
+approx guess accepted 29918: _
+approx guess accepted 19243: fahren
+approx guess accepted 6884: heit
+accepted_count 46, resample_count 4
+deepmind's speculative_sampling took 2.87247633934021 seconds.
+deepmind's speculative_sampling: Write a Python function to convert Celsius to Fahrenheit. \ndef celsius_to_fahrenheit(celsius): \n    fahrenheit = (celsius * 9/5) + 32 \n    return fahrenheit \n\nprint(celsius_to_fahrenheit(100)) \nprint(celsius_to_fahrenheit(
+approx guess accepted 320: \
+approx guess accepted 29876: n
+tensor([[1678]], device='cuda:0')
+t_1 is None
+target resamples at position 32:   
+tensor([[285]], device='cuda:0')
+t_1 is None
+target resamples at position 33: f
+approx guess accepted 21446: ahren
+approx guess accepted 6884: heit
+approx guess accepted 353: =
+approx guess accepted 313: (
+target samples 38: cel
+approx guess accepted 1039: si
+approx guess accepted 375: us
+approx guess accepted 334: *
+approx guess accepted 29871: 
+target samples 43: 9
+approx guess accepted 29914: /
+approx guess accepted 29945: 5
+approx guess accepted 29897: )
+approx guess accepted 718: +
+target samples 48: 
+approx guess accepted 29941: 3
+approx guess accepted 29906: 2
+approx guess accepted 320: \
+approx guess accepted 29876: n
+target samples 53:   
+approx guess accepted 736: return
+approx guess accepted 285: f
+approx guess accepted 21446: ahren
+approx guess accepted 6884: heit
+target samples 58: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+tensor([[2158]], device='cuda:0')
+t_1 is None
+target resamples at position 62: print
+approx guess accepted 29898: (
+approx guess accepted 2242: cel
+approx guess accepted 1039: si
+approx guess accepted 375: us
+target samples 67: _
+approx guess accepted 517: to
+approx guess accepted 29918: _
+approx guess accepted 19243: fahren
+approx guess accepted 6884: heit
+target samples 72: (
+approx guess accepted 29896: 1
+approx guess accepted 29900: 0
+approx guess accepted 29900: 0
+approx guess accepted 876: ))
+target samples 77: \
+approx guess accepted 29876: n
+tensor([[2158]], device='cuda:0')
+t_1 is None
+target resamples at position 79: print
+approx guess accepted 29898: (
+approx guess accepted 2242: cel
+approx guess accepted 1039: si
+approx guess accepted 375: us
+target samples 84: _
+approx guess accepted 517: to
+approx guess accepted 29918: _
+approx guess accepted 19243: fahren
+approx guess accepted 6884: heit
+target samples 89: (
+generated tokens numbers 60, accepted_count 46, target_sample_count 10, resample_count 4
+google's speculative_sampling took 2.724303960800171 seconds.
+google's speculative_sampling: Write a Python function to convert Celsius to Fahrenheit. \ndef celsius_to_fahrenheit(celsius): \n    fahrenheit = (celsius * 9/5) + 32 \n    return fahrenheit \n\nprint(celsius_to_fahrenheit(100)) \nprint(celsius_to_fahrenheit(
+Done with Write a Python function to convert Celsius to Fahrenheit. \ndef celsius_to_fahrenheit(celsius):
+Current Prompt: Calculate the factorial of a number using Python. \ndef factorial(n):
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 4.918730974197388 seconds.
+large (target) model autoregressive_sampling: Calculate the factorial of a number using Python. \ndef factorial(n): return 1 if n==0 or n==1 else n * factorial(n-1) \n\nprint(factorial(5)) # Should be 120
+def factorial(n):
+  return 1 if n==0 or n==1 else
+small (target) model autoregressive_sampling took 2.5981531143188477 seconds.
+small (approx) model autoregressive_sampling: Calculate the factorial of a number using Python. \ndef factorial(n):\n    fact = 1\n    for i in range(2, n + 1):\n        fact = fact * i\n\n    return fact \nprint(factorial(5))\n\n
+Calculate the factorial of a number using Python
+target resamples at position 19: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 565: if
+approx guess accepted 302: n
+approx guess accepted 29871: 
+approx guess accepted 29900: 0
+approx guess accepted 3583: :\
+approx guess accepted 29876: n
+approx guess accepted 736: return
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29905: \
+approx guess accepted 1678:   
+approx guess accepted 1683: else
+approx guess accepted 3583: :\
+approx guess accepted 29876: n
+approx guess accepted 736: return
+approx guess accepted 302: n
+approx guess accepted 334: *
+approx guess accepted 7329: factor
+approx guess accepted 29898: (
+approx guess accepted 29876: n
+target resamples at position 47: -
+approx guess accepted 29896: 1
+approx guess accepted 2144: )\
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+approx guess accepted 19790: factor
+approx guess accepted 616: ial
+approx guess accepted 29945: 5
+approx guess accepted 876: ))
+target resamples at position 60: "
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target resamples at position 63: #
+target resamples at position 64: Calcul
+approx guess accepted 403: ate
+approx guess accepted 278: the
+approx guess accepted 7329: factor
+approx guess accepted 616: ial
+approx guess accepted 263: a
+approx guess accepted 1353: number
+approx guess accepted 773: using
+approx guess accepted 5132: Python
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target resamples at position 77: #
+approx guess accepted 822: def
+approx guess accepted 7329: factor
+approx guess accepted 616: ial
+approx guess accepted 29898: (
+accepted_count 48, resample_count 6
+deepmind's speculative_sampling took 5.9364283084869385 seconds.
+deepmind's speculative_sampling: Calculate the factorial of a number using Python. \ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\nprint(factorial(5))"
+
+# Calculate the factorial of a number using Python.
+
+# def factorial(n
+tensor([[29905]], device='cuda:0')
+t_1 is None
+target resamples at position 19: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 565: if
+approx guess accepted 302: n
+target samples 24: ==
+approx guess accepted 29871: 
+approx guess accepted 29900: 0
+approx guess accepted 3583: :\
+approx guess accepted 29876: n
+target samples 29:       
+approx guess accepted 736: return
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29905: \
+target samples 34: n
+approx guess accepted 1678:   
+approx guess accepted 1683: else
+approx guess accepted 3583: :\
+approx guess accepted 29876: n
+target samples 39:       
+approx guess accepted 736: return
+approx guess accepted 302: n
+approx guess accepted 334: *
+approx guess accepted 7329: factor
+target samples 44: ial
+approx guess accepted 29898: (
+approx guess accepted 29876: n
+tensor([[29899]], device='cuda:0')
+t_1 is None
+target resamples at position 47: -
+approx guess accepted 29896: 1
+approx guess accepted 2144: )\
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+target samples 52: n
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+approx guess accepted 19790: factor
+approx guess accepted 616: ial
+target samples 57: (
+approx guess accepted 29945: 5
+approx guess accepted 876: ))
+tensor([[29908]], device='cuda:0')
+t_1 is None
+target resamples at position 60: "
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+tensor([[29937]], device='cuda:0')
+t_1 is None
+target resamples at position 63: #
+tensor([[20535]], device='cuda:0')
+t_1 is None
+target resamples at position 64: Calcul
+approx guess accepted 403: ate
+approx guess accepted 278: the
+approx guess accepted 7329: factor
+approx guess accepted 616: ial
+target samples 69: of
+approx guess accepted 263: a
+approx guess accepted 1353: number
+approx guess accepted 773: using
+approx guess accepted 5132: Python
+target samples 74: .
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+tensor([[29937]], device='cuda:0')
+t_1 is None
+target resamples at position 77: #
+approx guess accepted 822: def
+approx guess accepted 7329: factor
+approx guess accepted 616: ial
+approx guess accepted 29898: (
+target samples 82: n
+generated tokens numbers 64, accepted_count 48, target_sample_count 10, resample_count 6
+google's speculative_sampling took 4.82166314125061 seconds.
+google's speculative_sampling: Calculate the factorial of a number using Python. \ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\nprint(factorial(5))"
+
+# Calculate the factorial of a number using Python.
+
+# def factorial(n
+Done with Calculate the factorial of a number using Python. \ndef factorial(n):
+Current Prompt: Develop a Python program for a basic calculator. \ndef calculator():
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 4.71468710899353 seconds.
+large (target) model autoregressive_sampling: Develop a Python program for a basic calculator. \ndef calculator():   \n    while True: \n        print("\n1. Add") \n        print("2. Subtract") \n        print("3. Multiply") \n        print("4. Divide") \n        print("5. Quit") \
+small (target) model autoregressive_sampling took 2.9737768173217773 seconds.
+small (approx) model autoregressive_sampling: Develop a Python program for a basic calculator. \ndef calculator():
+Input two values from the user.
+Perform the selected operation.
+Display the result.
+Input list of numbers:
+list1=[]
+for i in range(0,4):
+list1.append(int(input()))
+print("Enter your choice")
+print
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+approx guess accepted 703: ("
+approx guess accepted 3549: Select
+approx guess accepted 5858: operation
+target resamples at position 24: .")
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+target resamples at position 28: t
+approx guess accepted 2158: print
+approx guess accepted 703: ("
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+approx guess accepted 1159: ")
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 2158: print
+approx guess accepted 703: ("
+approx guess accepted 29906: 2
+approx guess accepted 29889: .
+approx guess accepted 29873: t
+approx guess accepted 1461: ract
+approx guess accepted 1159: ")
+approx guess accepted 320: \
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+approx guess accepted 2158: print
+approx guess accepted 703: ("
+approx guess accepted 29889: .
+approx guess accepted 6857: Mult
+approx guess accepted 666: ip
+approx guess accepted 368: ly
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+approx guess accepted 703: ("
+approx guess accepted 29946: 4
+approx guess accepted 29889: .
+approx guess accepted 12596: Div
+approx guess accepted 1159: ")
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 261: er
+approx guess accepted 362: ation
+target resamples at position 76: =
+accepted_count 48, resample_count 3
+deepmind's speculative_sampling took 5.103748798370361 seconds.
+deepmind's speculative_sampling: Develop a Python program for a basic calculator. \ndef calculator(): \n\tprint("Select operation.") \n\tprint("1.Add") \n\tprint("2.Subtract") \n\tprint("3.Multiply") \n\tprint("4.Divide") \n\toperation =
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+target samples 20: print
+approx guess accepted 703: ("
+approx guess accepted 3549: Select
+approx guess accepted 5858: operation
+tensor([[23157]], device='cuda:0')
+t_1 is None
+target resamples at position 24: .")
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+tensor([[29873]], device='cuda:0')
+t_1 is None
+target resamples at position 28: t
+approx guess accepted 2158: print
+approx guess accepted 703: ("
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+target samples 33: Add
+approx guess accepted 1159: ")
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+target samples 38: t
+approx guess accepted 2158: print
+approx guess accepted 703: ("
+approx guess accepted 29906: 2
+approx guess accepted 29889: .
+target samples 43: Sub
+approx guess accepted 29873: t
+approx guess accepted 1461: ract
+approx guess accepted 1159: ")
+approx guess accepted 320: \
+target samples 48: n
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+approx guess accepted 2158: print
+approx guess accepted 703: ("
+target samples 53: 3
+approx guess accepted 29889: .
+approx guess accepted 6857: Mult
+approx guess accepted 666: ip
+approx guess accepted 368: ly
+target samples 58: ")
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+target samples 63: print
+approx guess accepted 703: ("
+approx guess accepted 29946: 4
+approx guess accepted 29889: .
+approx guess accepted 12596: Div
+target samples 68: ide
+approx guess accepted 1159: ")
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+target samples 73: top
+approx guess accepted 261: er
+approx guess accepted 362: ation
+tensor([[353]], device='cuda:0')
+t_1 is None
+target resamples at position 76: =
+generated tokens numbers 61, accepted_count 48, target_sample_count 10, resample_count 3
+google's speculative_sampling took 3.072077751159668 seconds.
+google's speculative_sampling: Develop a Python program for a basic calculator. \ndef calculator(): \n\tprint("Select operation.") \n\tprint("1.Add") \n\tprint("2.Subtract") \n\tprint("3.Multiply") \n\tprint("4.Divide") \n\toperation =
+Done with Develop a Python program for a basic calculator. \ndef calculator():
+Current Prompt: Create a Python script to generate a random password. \ndef generate_password():
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 3.5907325744628906 seconds.
+large (target) model autoregressive_sampling: Create a Python script to generate a random password. \ndef generate_password():   #Function that will generate random password\n    password = ''\n    length = input("How long would you like your password to be?")\n    intlength = int(length)\n    intlength -= 2\n    for i in range(intlength):
+small (target) model autoregressive_sampling took 2.2768890857696533 seconds.
+small (approx) model autoregressive_sampling: Create a Python script to generate a random password. \ndef generate_password():
+    letters = list(string.ascii_letters)
+    numbers = list(string.digits)
+    mypunc = list(string.punctuation)
+    #print(mypunc)
+
+    x = random.choice(letters
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+approx guess accepted 353: =
+approx guess accepted 938: int
+approx guess accepted 29898: (
+approx guess accepted 2080: input
+approx guess accepted 29908: "
+approx guess accepted 10399: Enter
+approx guess accepted 278: the
+approx guess accepted 3309: length
+approx guess accepted 278: the
+approx guess accepted 4800: password
+approx guess accepted 29901: :
+approx guess accepted 320: \
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+approx guess accepted 353: =
+target resamples at position 43: string
+approx guess accepted 29889: .
+approx guess accepted 294: as
+approx guess accepted 18869: cii
+approx guess accepted 29918: _
+approx guess accepted 4878: case
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 2496: pper
+approx guess accepted 353: =
+approx guess accepted 1347: string
+approx guess accepted 29889: .
+approx guess accepted 18869: cii
+approx guess accepted 29918: _
+approx guess accepted 21064: upper
+approx guess accepted 4878: case
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 1594: td
+approx guess accepted 335: ig
+approx guess accepted 353: =
+approx guess accepted 1347: string
+approx guess accepted 29889: .
+approx guess accepted 7501: dig
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 1372: ts
+accepted_count 49, resample_count 1
+deepmind's speculative_sampling took 5.327004432678223 seconds.
+deepmind's speculative_sampling: Create a Python script to generate a random password. \ndef generate_password(): \n\tlength = int(input(\"Enter the length of the password: \")) \n\tlower = string.ascii_lowercase \n\tupper = string.ascii_uppercase \n\tdigits = string.digits \n\tspe
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+target samples 21: length
+approx guess accepted 353: =
+approx guess accepted 938: int
+approx guess accepted 29898: (
+approx guess accepted 2080: input
+target samples 26: (\
+approx guess accepted 29908: "
+approx guess accepted 10399: Enter
+approx guess accepted 278: the
+approx guess accepted 3309: length
+target samples 31: of
+approx guess accepted 278: the
+approx guess accepted 4800: password
+approx guess accepted 29901: :
+approx guess accepted 320: \
+target samples 36: "))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29873: t
+target samples 41: lower
+approx guess accepted 353: =
+tensor([[1347]], device='cuda:0')
+t_1 is None
+target resamples at position 43: string
+approx guess accepted 29889: .
+approx guess accepted 294: as
+approx guess accepted 18869: cii
+approx guess accepted 29918: _
+target samples 48: lower
+approx guess accepted 4878: case
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+target samples 53: tu
+approx guess accepted 2496: pper
+approx guess accepted 353: =
+approx guess accepted 1347: string
+approx guess accepted 29889: .
+target samples 58: as
+approx guess accepted 18869: cii
+approx guess accepted 29918: _
+approx guess accepted 21064: upper
+approx guess accepted 4878: case
+target samples 63: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 1594: td
+approx guess accepted 335: ig
+target samples 68: its
+approx guess accepted 353: =
+approx guess accepted 1347: string
+approx guess accepted 29889: .
+approx guess accepted 7501: dig
+target samples 73: its
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 1372: ts
+target samples 78: pe
+generated tokens numbers 62, accepted_count 49, target_sample_count 12, resample_count 1
+google's speculative_sampling took 3.734711170196533 seconds.
+google's speculative_sampling: Create a Python script to generate a random password. \ndef generate_password(): \n\tlength = int(input(\"Enter the length of the password: \")) \n\tlower = string.ascii_lowercase \n\tupper = string.ascii_uppercase \n\tdigits = string.digits \n\tspe
+Done with Create a Python script to generate a random password. \ndef generate_password():
+Current Prompt: Design a basic chat application using Python. \n# Define the chat application classes and functions here
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 6.8314595222473145 seconds.
+large (target) model autoregressive_sampling: Design a basic chat application using Python. \n# Define the chat application classes and functions here.\n# Chat App should support basic functionality of sending messages to one person or a group, receiving messages, and adding new users.\n# Chat App should support sending and receiving messages to/from an infinite number of users."
+
+
+def _main(args):
+    print
+small (target) model autoregressive_sampling took 2.8376526832580566 seconds.
+small (approx) model autoregressive_sampling: Design a basic chat application using Python. \n# Define the chat application classes and functions here."""
+
+import tkinter as tk
+
+
+class ChatApp:
+    """A basic chat application."""
+
+    def __init__(self, send_messages=None, on_closing=None):
+        """Initialize the application.
+
+        :
+approx guess accepted 29889: .
+target resamples at position 20: \
+approx guess accepted 29876: n
+approx guess accepted 29937: #
+target resamples at position 23: The
+target resamples at position 24: application
+approx guess accepted 881: should
+approx guess accepted 367: be
+approx guess accepted 2221: able
+approx guess accepted 304: to
+approx guess accepted 278: the
+approx guess accepted 1494: following
+approx guess accepted 29901: :
+approx guess accepted 320: \
+target resamples at position 35: #
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+target resamples at position 39: Accept
+target resamples at position 40: a
+target resamples at position 41: username
+approx guess accepted 515: from
+approx guess accepted 278: the
+approx guess accepted 1404: user
+target resamples at position 45: \
+approx guess accepted 29876: n
+approx guess accepted 29937: #
+approx guess accepted 29871: 
+approx guess accepted 29906: 2
+approx guess accepted 17440: Display
+approx guess accepted 263: a
+target resamples at position 53: welcome
+approx guess accepted 2643: message
+approx guess accepted 304: to
+approx guess accepted 278: the
+approx guess accepted 1404: user
+approx guess accepted 29876: n
+approx guess accepted 29937: #
+approx guess accepted 29871: 
+approx guess accepted 29941: 3
+approx guess accepted 17440: Display
+approx guess accepted 263: a
+approx guess accepted 1051: list
+approx guess accepted 310: of
+target resamples at position 69: \
+approx guess accepted 29876: n
+approx guess accepted 29937: #
+approx guess accepted 29871: 
+approx guess accepted 29946: 4
+target resamples at position 75: Accept
+target resamples at position 76: commands
+approx guess accepted 515: from
+approx guess accepted 278: the
+approx guess accepted 1404: user
+approx guess accepted 320: \
+accepted_count 43, resample_count 12
+deepmind's speculative_sampling took 8.501471519470215 seconds.
+deepmind's speculative_sampling: Design a basic chat application using Python. \n# Define the chat application classes and functions here. \n# The application should be able to do the following: \n# 1. Accept a username from the user \n# 2. Display a welcome message to the user \n# 3. Display a list of commands \n# 4. Accept commands from the user \n
+approx guess accepted 29889: .
+tensor([[320]], device='cuda:0')
+t_1 is None
+target resamples at position 20: \
+approx guess accepted 29876: n
+approx guess accepted 29937: #
+tensor([[450]], device='cuda:0')
+t_1 is None
+target resamples at position 23: The
+tensor([[2280]], device='cuda:0')
+t_1 is None
+target resamples at position 24: application
+approx guess accepted 881: should
+tensor([[367]], device='cuda:0')
+t_1 is None
+target resamples at position 26: be
+approx guess accepted 2221: able
+approx guess accepted 304: to
+tensor([[437]], device='cuda:0')
+t_1 is None
+target resamples at position 29: do
+approx guess accepted 278: the
+approx guess accepted 1494: following
+approx guess accepted 29901: :
+approx guess accepted 320: \
+target samples 34: n
+tensor([[29937]], device='cuda:0')
+t_1 is None
+target resamples at position 35: #
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+tensor([[29848]], device='cuda:0')
+t_1 is None
+target resamples at position 39: Accept
+tensor([[263]], device='cuda:0')
+t_1 is None
+target resamples at position 40: a
+tensor([[8952]], device='cuda:0')
+t_1 is None
+target resamples at position 41: username
+approx guess accepted 515: from
+approx guess accepted 278: the
+approx guess accepted 1404: user
+tensor([[320]], device='cuda:0')
+t_1 is None
+target resamples at position 45: \
+approx guess accepted 29876: n
+approx guess accepted 29937: #
+approx guess accepted 29871: 
+approx guess accepted 29906: 2
+target samples 50: .
+approx guess accepted 17440: Display
+approx guess accepted 263: a
+tensor([[12853]], device='cuda:0')
+t_1 is None
+target resamples at position 53: welcome
+approx guess accepted 2643: message
+approx guess accepted 304: to
+approx guess accepted 278: the
+approx guess accepted 1404: user
+target samples 58: \
+approx guess accepted 29876: n
+approx guess accepted 29937: #
+approx guess accepted 29871: 
+approx guess accepted 29941: 3
+target samples 63: .
+approx guess accepted 17440: Display
+approx guess accepted 263: a
+approx guess accepted 1051: list
+approx guess accepted 310: of
+target samples 68: commands
+tensor([[320]], device='cuda:0')
+t_1 is None
+target resamples at position 69: \
+approx guess accepted 29876: n
+approx guess accepted 29937: #
+approx guess accepted 29871: 
+approx guess accepted 29946: 4
+target samples 74: .
+tensor([[29848]], device='cuda:0')
+t_1 is None
+target resamples at position 75: Accept
+tensor([[8260]], device='cuda:0')
+t_1 is None
+target resamples at position 76: commands
+approx guess accepted 515: from
+approx guess accepted 278: the
+approx guess accepted 1404: user
+approx guess accepted 320: \
+target samples 81: n
+generated tokens numbers 63, accepted_count 42, target_sample_count 7, resample_count 14
+google's speculative_sampling took 7.351893663406372 seconds.
+google's speculative_sampling: Design a basic chat application using Python. \n# Define the chat application classes and functions here. \n# The application should be able to do the following: \n# 1. Accept a username from the user \n# 2. Display a welcome message to the user \n# 3. Display a list of commands \n# 4. Accept commands from the user \n
+Done with Design a basic chat application using Python. \n# Define the chat application classes and functions here
+Timing information saved to output/20-prompts_output-7b-13b-0.json and output/20-prompts_output-7b-13b-0.txt

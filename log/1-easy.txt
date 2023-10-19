@@ -1,0 +1,80 @@
+Current Prompt: Create a Python function to reverse a given string. \ndef reverse_string(s):
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 1.3397860527038574 seconds.
+large (target) model autoregressive_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): \n    return s[::-1] \n\nprint(reverse_string('I love Python')) \nprint(reverse_
+small (target) model autoregressive_sampling took 0.7646548748016357 seconds.
+small (approx) model autoregressive_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s):\n    return s[::-1]
+
+
+def reverse_string(s):
+    return s[::-1]
+
+target resamples at position 19: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 269: s
+approx guess accepted 1057: ::
+approx guess accepted 29899: -
+approx guess accepted 29896: 1
+approx guess accepted 29962: ]
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+target resamples at position 33: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target resamples at position 39: I
+target resamples at position 40: love
+approx guess accepted 5132: Python
+approx guess accepted 8785: '))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+accepted_count 23, resample_count 4
+deepmind's speculative_sampling took 1.8728868961334229 seconds.
+deepmind's speculative_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): \n    return s[::-1] \n\nprint(reverse_string('I love Python')) \nprint(reverse_string('
+target resamples at position 19: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 269: s
+target samples 24: [
+approx guess accepted 1057: ::
+approx guess accepted 29899: -
+approx guess accepted 29896: 1
+approx guess accepted 29962: ]
+target samples 29: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+target resamples at position 33: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target samples 38: ('
+target resamples at position 39: I
+target resamples at position 40: love
+approx guess accepted 5132: Python
+approx guess accepted 8785: '))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+target samples 45: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target samples 50: ('
+generated tokens numbers 32, accepted_count 23, target_sample_count 5, resample_count 4
+google's speculative_sampling took 1.3443844318389893 seconds.
+google's speculative_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): \n    return s[::-1] \n\nprint(reverse_string('I love Python')) \nprint(reverse_string('
+Done with Create a Python function to reverse a given string. \ndef reverse_string(s):

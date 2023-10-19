@@ -1,0 +1,44 @@
+[
+    {
+        "input_file": "prompt/prompt-with-def-easy.json",
+        "output_file": "output/prompt-with-def-easy_13B-7B_30.txt",
+        "model1": "codellama/CodeLlama-13b-Python-hf",
+        "model2": "codellama/CodeLlama-7b-Python-hf",
+        "length": "60"
+    },
+    {
+        "input_file": "prompt/prompt-with-def-easy.json",
+        "output_file": "output/prompt-with-def-easy_34B-13B_30.txt",
+        "model1": "codellama/CodeLlama-34b-Python-hf",
+        "model2": "codellama/CodeLlama-13b-Python-hf",
+        "length": "60"
+    },
+    {
+        "input_file": "prompt/prompt-with-def-easy.json",
+        "output_file": "output/prompt-with-def-easy_34B-7B_30.txt",
+        "model1": "codellama/CodeLlama-34b-Python-hf",
+        "model2": "codellama/CodeLlama-7b-Python-hf",
+        "length": "60"
+    },
+    {
+        "input_file": "prompt/prompt-with-def-hard.json",
+        "output_file": "output/prompt-with-def-hard_13B-7B_120.txt",
+        "model1": "codellama/CodeLlama-13b-Python-hf",
+        "model2": "codellama/CodeLlama-7b-Python-hf",
+        "length": "200"
+    },
+    {
+        "input_file": "prompt/prompt-with-def-hard.json",
+        "output_file": "output/prompt-with-def-hard_34B-13B_120.txt",
+        "model1": "codellama/CodeLlama-34b-Python-hf",
+        "model2": "codellama/CodeLlama-13b-Python-hf",
+        "length": "200"
+    },
+    {
+        "input_file": "prompt/prompt-with-def-hard.json",
+        "output_file": "output/prompt-with-def-hard_34B-7B_120.txt",
+        "model1": "codellama/CodeLlama-34b-Python-hf",
+        "model2": "codellama/CodeLlama-7b-Python-hf",
+        "length": "200"
+    }
+]

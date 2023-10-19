@@ -1,0 +1,182 @@
+Current Prompt: Create a Python function to reverse a given string. \ndef reverse_string(s):
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 1.3363215923309326 seconds.
+large (target) model autoregressive_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): \n    return s[::-1] \n\nprint(reverse_string('I love Python')) \nprint(reverse_
+small (target) model autoregressive_sampling took 0.7546939849853516 seconds.
+small (approx) model autoregressive_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s):\n    return s[::-1]
+
+
+def reverse_string(s):
+    return s[::-1]
+
+target resamples at position 19: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 269: s
+approx guess accepted 1057: ::
+approx guess accepted 29899: -
+approx guess accepted 29896: 1
+approx guess accepted 29962: ]
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+target resamples at position 33: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target resamples at position 39: I
+target resamples at position 40: love
+approx guess accepted 5132: Python
+approx guess accepted 8785: '))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+accepted_count 23, resample_count 4
+deepmind's speculative_sampling took 1.6320452690124512 seconds.
+deepmind's speculative_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): \n    return s[::-1] \n\nprint(reverse_string('I love Python')) \nprint(reverse_string('
+target resamples at position 19: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 269: s
+target samples 24: [
+approx guess accepted 1057: ::
+approx guess accepted 29899: -
+approx guess accepted 29896: 1
+approx guess accepted 29962: ]
+target samples 29: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+target resamples at position 33: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target samples 38: ('
+target resamples at position 39: I
+target resamples at position 40: love
+approx guess accepted 5132: Python
+approx guess accepted 8785: '))
+approx guess accepted 320: \
+approx guess accepted 29876: n
+target samples 45: print
+approx guess accepted 29898: (
+approx guess accepted 24244: reverse
+approx guess accepted 29918: _
+approx guess accepted 1807: string
+target samples 50: ('
+generated tokens numbers 32, accepted_count 23, target_sample_count 5, resample_count 4
+google's speculative_sampling took 1.3301126956939697 seconds.
+google's speculative_sampling: Create a Python function to reverse a given string. \ndef reverse_string(s): \n    return s[::-1] \n\nprint(reverse_string('I love Python')) \nprint(reverse_string('
+
+"Prompt 1": {
+      "Large Model": "1.3363215923309326 seconds",
+      "Small Model": "0.7546939849853516 seconds",
+      "DeepMind": "1.6320452690124512 seconds",
+      "Google": "1.3301126956939697 seconds"
+    },
+Done with Create a Python function to reverse a given string. \ndef reverse_string(s):
+Current Prompt: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):
+begin loading models: 
+ codellama/CodeLlama-7b-Python-hf 
+ codellama/CodeLlama-13b-Python-hf
+finish loading models
+large (target) model autoregressive_sampling took 2.11464524269104 seconds.
+large (target) model autoregressive_sampling: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):\n    return a + b\n\nprint(sum2Numbers(1, 4))"
+
+# 1.1
+small (target) model autoregressive_sampling took 0.7640504837036133 seconds.
+small (approx) model autoregressive_sampling: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b): \n    return a + b \n\nprint(sum2Numbers(1, 2)) \nprint(sum2Numbers(
+target resamples at position 21: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 263: a
+approx guess accepted 289: b
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+approx guess accepted 2083: sum
+approx guess accepted 29906: 2
+approx guess accepted 29898: (
+approx guess accepted 29896: 1
+approx guess accepted 29892: ,
+approx guess accepted 29871: 
+approx guess accepted 876: ))
+target resamples at position 43: "
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target resamples at position 46: #
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+target resamples at position 50: 1
+accepted_count 22, resample_count 4
+deepmind's speculative_sampling took 1.4635052680969238 seconds.
+deepmind's speculative_sampling: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):\n    return a + b\n\nprint(sum2Numbers(1, 4))"
+
+# 1.1
+target resamples at position 21: \
+approx guess accepted 29876: n
+approx guess accepted 1678:   
+approx guess accepted 736: return
+approx guess accepted 263: a
+target samples 26: +
+approx guess accepted 289: b
+approx guess accepted 29905: \
+approx guess accepted 29876: n
+approx guess accepted 29905: \
+target samples 31: n
+approx guess accepted 2158: print
+approx guess accepted 29898: (
+approx guess accepted 2083: sum
+approx guess accepted 29906: 2
+target samples 36: Numbers
+approx guess accepted 29898: (
+approx guess accepted 29896: 1
+approx guess accepted 29892: ,
+approx guess accepted 29871: 
+target samples 41: 4
+approx guess accepted 876: ))
+target resamples at position 43: "
+approx guess accepted 13: 
+
+approx guess accepted 13: 
+
+target resamples at position 46: #
+approx guess accepted 29871: 
+approx guess accepted 29896: 1
+approx guess accepted 29889: .
+target resamples at position 50: 1
+generated tokens numbers 30, accepted_count 22, target_sample_count 4, resample_count 4
+google's speculative_sampling took 1.22501802444458 seconds.
+google's speculative_sampling: Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):\n    return a + b\n\nprint(sum2Numbers(1, 4))"
+
+# 1.1
+
+"Prompt 1": {
+      "Large Model": "1.3363215923309326 seconds",
+      "Small Model": "0.7546939849853516 seconds",
+      "DeepMind": "1.6320452690124512 seconds",
+      "Google": "1.3301126956939697 seconds"
+    },
+"Prompt 2": {
+      "Large Model": "2.11464524269104 seconds",
+      "Small Model": "0.7640504837036133 seconds",
+      "DeepMind": "1.4635052680969238 seconds",
+      "Google": "1.22501802444458 seconds"
+    },
+Done with Calculate the sum of two numbers in Python. \ndef sum2Numbers(a, b):

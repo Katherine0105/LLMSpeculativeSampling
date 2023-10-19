@@ -1,0 +1,61 @@
+{"Total Time": {"Large Model": "2487.925 seconds", "Small Model": "28.59084 seconds", "DeepMind": "755.3932 seconds", "Google": "662.9792 seconds"}}
+"Prompt 1": {
+        "Large Model": "247.6627562046051 seconds",
+        "Small Model": "2.671445369720459 seconds",
+        "DeepMind": "82.14237594604492 seconds",
+        "Google": "73.83942198753357 seconds"
+        },
+"Prompt 2": {
+        "Large Model": "241.25967669487 seconds",
+        "Small Model": "3.322629690170288 seconds",
+        "DeepMind": "79.95642280578613 seconds",
+        "Google": "71.24933624267578 seconds"
+        },
+"Prompt 3": {
+        "Large Model": "246.68741750717163 seconds",
+        "Small Model": "3.3695483207702637 seconds",
+        "DeepMind": "63.5407509803772 seconds",
+        "Google": "53.71319556236267 seconds"
+        },
+"Prompt 4": {
+        "Large Model": "256.96973848342896 seconds",
+        "Small Model": "2.6896069049835205 seconds",
+        "DeepMind": "71.89877343177795 seconds",
+        "Google": "57.57394289970398 seconds"
+        },
+"Prompt 5": {
+        "Large Model": "257.59985733032227 seconds",
+        "Small Model": "2.677917242050171 seconds",
+        "DeepMind": "77.48700904846191 seconds",
+        "Google": "67.1124906539917 seconds"
+        },
+"Prompt 6": {
+        "Large Model": "246.84122848510742 seconds",
+        "Small Model": "2.6927649974823 seconds",
+        "DeepMind": "76.01663708686829 seconds",
+        "Google": "65.9893753528595 seconds"
+        },
+"Prompt 7": {
+        "Large Model": "248.99702906608582 seconds",
+        "Small Model": "2.661494016647339 seconds",
+        "DeepMind": "65.54468607902527 seconds",
+        "Google": "55.64596915245056 seconds"
+        },
+"Prompt 8": {
+        "Large Model": "246.661527633667 seconds",
+        "Small Model": "2.6472415924072266 seconds",
+        "DeepMind": "60.728689193725586 seconds",
+        "Google": "53.84418869018555 seconds"
+        },
+"Prompt 9": {
+        "Large Model": "245.28070664405823 seconds",
+        "Small Model": "3.194561243057251 seconds",
+        "DeepMind": "92.1233012676239 seconds",
+        "Google": "81.86997556686401 seconds"
+        },
+"Prompt 10": {
+        "Large Model": "249.9636733531952 seconds",
+        "Small Model": "2.6636264324188232 seconds",
+        "DeepMind": "85.95453381538391 seconds",
+        "Google": "82.14129137992859 seconds"
+        },
