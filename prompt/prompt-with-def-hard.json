@@ -1,0 +1,42 @@
+[
+  {
+    "summary": "Design a 'BankAccount' class",
+    "prompt": "Design a Python class for a 'BankAccount' with methods. \\nclass BankAccount:"
+  },
+  {
+    "summary": "Build an e-commerce shopping cart",
+    "prompt": "Develop a Python script for a basic e-commerce shopping cart. \\n# Define the shopping cart classes and functions here"
+  },
+  {
+    "summary": "Create a content recommendation system",
+    "prompt": "Develop a Python script for a content recommendation system. \\n# Define the recommendation system here"
+  },
+  {
+    "summary": "Design a 'NeuralNetwork' with backpropagation",
+    "prompt": "Design a Python class for a 'NeuralNetwork' with backpropagation. \\nclass NeuralNetwork:"
+  },
+  {
+    "summary": "Implement a basic database system",
+    "prompt": "Develop a Python application for a basic database system. \\n# Define the database system classes and functions here"
+  },
+  {
+    "summary": "Build a multi-user chat application",
+    "prompt": "Design a multi-user chat application using Python. \\n# Define the chat application classes and functions here"
+  },
+  {
+    "summary": "Create a real-time stock market tracker",
+    "prompt": "Develop a Python program to track real-time stock market data. \\ndef get_stock_data("
+  },
+  {
+    "summary": "Design a 'TaskManagement' system",
+    "prompt": "Design a Python class for a 'TaskManagement' system. \\nclass TaskManagementSystem:"
+  },
+  {
+    "summary": "Implement a recommendation engine",
+    "prompt": "Develop a Python script for a recommendation engine. \\nclass RecommendationEngine:"
+  },
+  {
+    "summary": "Create a basic operating system kernel",
+    "prompt": "Develop a basic operating system kernel using Python. \\ndef syscall_handler("
+  }
+]

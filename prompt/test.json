@@ -1,15 +1,6 @@
-{
-    "easy": [
-      {
-        "summary": "Print 'Hello, World!'",
-        "prompt": "Write a Python program to print 'Hello, World!'"
-      }
-    ],
-    "hard": [
-      {
-        "summary": "Build e-commerce shopping cart",
-        "prompt": "Develop a Python script for a basic e-commerce shopping cart."
-      }
-    ]
+[
+  {
+    "summary": "Create a real-time stock market tracker",
+    "prompt": "Develop a Python program to track real-time stock market data. \\n# Implement the stock market tracker here"
   }
-  
+]

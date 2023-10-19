@@ -1,0 +1,42 @@
+[
+  {
+    "summary": "Print 'Hello, World!'",
+    "prompt": "Write a Python program to print 'Hello, World!' \\ndef printHelloWorld():"
+  },
+  {
+    "summary": "Calculate sum of two numbers",
+    "prompt": "Calculate the sum of two numbers in Python. \\ndef sum2Numbers(a, b):"
+  },
+  {
+    "summary": "Find the square of a number",
+    "prompt": "Write a Python function to find the square of a number. \\ndef square(n):"
+  },
+  {
+    "summary": "Reverse a string",
+    "prompt": "Create a Python function to reverse a given string. \\ndef reverse_string(s):"
+  },
+  {
+    "summary": "Check if a number is prime",
+    "prompt": "Implement a Python script to check if a number is prime. \\ndef is_prime(n):"
+  },
+  {
+    "summary": "Convert Celsius to Fahrenheit",
+    "prompt": "Write a Python function to convert Celsius to Fahrenheit. \\ndef celsius_to_fahrenheit(celsius):"
+  },
+  {
+    "summary": "Calculate factorial of a number",
+    "prompt": "Calculate the factorial of a number using Python. \\ndef factorial(n):"
+  },
+  {
+    "summary": "Create a simple calculator",
+    "prompt": "Develop a Python program for a basic calculator. \\ndef calculator():"
+  },
+  {
+    "summary": "Generate a random password",
+    "prompt": "Create a Python script to generate a random password. \\ndef generate_password():"
+  },
+  {
+    "summary": "Design a basic chat application",
+    "prompt": "Design a basic chat application using Python. \\ndef chatBot("
+  }
+]
