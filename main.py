@@ -36,7 +36,7 @@ def parse_arguments():
     parser.add_argument('--seed', '-s', type=int, default=None, help='set a random seed, which can makes the result reproducible')
     parser.add_argument('--benchmark', '-b', action='store_true', default=False, help='show benchmark results.')
     parser.add_argument('--profiling', '-p', action='store_true', default=False, help='collect torch profiler results.')
-    parser.add_argument('--max_tokens', '-M', type=int, default=200, help='max token number generated.')
+    parser.add_argument('--max_tokens', '-M', type=int, default=30, help='max token number generated.')
     parser.add_argument('--gamma', '-g', type=int, default=4, help='guess time.')
     args = parser.parse_args()
     return args
@@ -97,6 +97,7 @@ def generate(input_text, approx_model_name, target_model_name, num_tokens=20, ga
     torch.manual_seed(123)
     start = time.time()
     output = autoregressive_sampling(input_ids, large_model, num_tokens, top_k = top_k, top_p=top_p)
+    large_output = output
     end = time.time()
     time_spent = end - start
     print(f"large (target) model autoregressive_sampling took {time_spent} seconds.")
@@ -131,7 +132,7 @@ def generate(input_text, approx_model_name, target_model_name, num_tokens=20, ga
 
     torch.manual_seed(123)
     start=time.time()
-    output = speculative_sampling(input_ids, small_model, large_model, num_tokens, gamma = gamma, top_k = top_k, top_p=top_p, random_seed = random_seed, verbose = verbose)
+    output = speculative_sampling(input_ids, small_model, large_model, num_tokens,gamma = gamma, top_k = top_k, top_p=top_p, random_seed = random_seed, verbose = verbose)
     end = time.time()
     time_spent = end - start
     print(f"google's speculative_sampling took {time_spent} seconds.")
